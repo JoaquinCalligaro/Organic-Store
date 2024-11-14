@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 10px 20px;
+    
 }
 
 .navbar img{
@@ -43,3 +43,4 @@ body{
     color: #fff;
     text-decoration: underline;
 }
+

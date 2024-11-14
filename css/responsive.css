@@ -3,8 +3,14 @@
 /* @media (max-width: 1279px) { */
 @media (max-width: 768px) {
     .navbar img{
-        width: 150px;
-        height: 80px;
+        display: flex;
+        width: 160px;
+        height: 75px;
+        background-color: #A5BE00;
+        justify-content: space-between;
+        text-align: center;
+        padding: 6px 10px;
+        
     }
     .navlinks {
         display: none;

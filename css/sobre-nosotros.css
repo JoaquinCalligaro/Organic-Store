@@ -1,22 +1,12 @@
 body {
-    background: linear-gradient(to left, #608437, #90A955);
+    background-color: #709041;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.sobre-nosotros {
-    color: black;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    justify-content: center;
-    margin: 30px 30px;
-}
-
-.titulo-sobre-nosotros {
-    font-size: 3.2rem;
+.titulo-sobre-nosotros{
+    font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
     text-align: center;
@@ -24,15 +14,74 @@ body {
     margin: 30px 30px;
 }
 
-.texto-sobre-nosotros {
+.subtitulo {
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
     text-align: left;
     justify-content: left;
-    margin: 30px 10px;
+    margin: 30px 20px;
+    line-height: 2.5rem;
+}
+.mision {
+    font-size: 1.3rem;
+    text-align: left;
+    justify-content: left;
+    margin: 30px 20px;
+}
+
+.beneficios {
+    font-size: 1.3rem;
+    text-align: left;
+    justify-content: left;
+    margin: 10px 10px;
     line-height: 2.5rem;
     
-    
+}
+
+.beneficios ul {
+    padding: 0;
+}
+
+.beneficios li {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    margin: 30px 10px;
+}
+
+.beneficios .icono-hoja{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+.beneficios li span {
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.beneficios a  {
+    text-decoration: none;
+    color: #000;
+}
+.compromiso {
+    font-size: 1.3rem;
+    text-align: left;
+    justify-content: left;
+    margin: 30px 20px;
+}
+
+.imagen-equipo img {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10%;
+    align-items: center;
+
 }
 
