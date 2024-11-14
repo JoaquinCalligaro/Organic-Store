@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to left, #608437, #90A955);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sobre-nosotros {
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.titulo-sobre-nosotros {
+    font-size: 3.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.texto-sobre-nosotros {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: left;
+    justify-content: left;
+    margin: 30px 10px;
+    line-height: 2.5rem;
+    
+    
+}
+
