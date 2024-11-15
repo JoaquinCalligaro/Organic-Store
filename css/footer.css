@@ -1,17 +1,18 @@
 footer {
     background: #131313;
     color: #fff;
-    padding: 10px;
+    margin: 0;
+    padding: 3px;
 }
 
 
 .footer-social h4 {
     display: block;
-    margin: 0;
+    
     text-align: center;
     font-size: 1.5rem;
-    margin: 0px 15px;
-    margin-bottom: 15px;
+    margin: 15px 15px;
+    
 }
 
 .social-iconos {
@@ -44,19 +45,29 @@ footer {
     margin-bottom: 15px;
 }
 
+.footer-politicas h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px 15px;
+}
 
 .footer-politicas  {
     align-items: center;
     text-align: center;
     text-decoration: none;
-    list-style-type: none;
 }
 
-.footer-politicas h4 {
-    display: block;
+.footer-politicas a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+.footer-copyright {
     text-align: center;
-    font-size: 1.5rem;
-    margin: 15px 15px;
-    
+    font-size: .9rem;
+    color: #777;
+    margin-top: 20px;
     
 }
+
