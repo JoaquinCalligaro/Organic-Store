@@ -30,20 +30,25 @@
 
 /* Tablets en orientación vertical y teléfonos grandes */
 @media (min-width: 481px) and (max-width: 767px) {
-    .navbar {
-        padding: 8px 0px;
-    }
-    
+
     .navlinks {
         display: none;
     }
-    .navbar img{
+    .logo{
         display: flex;
-        width: 64px;
-        height: 64px;
-        justify-content: space-between;
+        width: 100px;
+        height: 80px;
         text-align: center;
-        margin-left: 230px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .busqueda, .favoritos, .carrito {
+        height: 30px;
+        width: auto;
+        align-items: left; 
+        text-align: left;
+        margin: 25px 15px;
     }
 
 

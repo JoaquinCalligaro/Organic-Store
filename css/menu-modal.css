@@ -6,13 +6,13 @@
 /* Icono de la hamburgesa*/
 .menu-icon {
     display: flex;
-    position: relative;
+    align-items: right;
     flex-direction: column;
-    top: 20px;
-    right: 30px;
     font-size: 28px;
     cursor: pointer;
     color: #FFF;
+    margin: auto;
+    margin-right: 30px;
 }
 
 #menu-toggle:checked + .menu-modal {

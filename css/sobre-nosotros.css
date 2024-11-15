@@ -1,10 +1,3 @@
-body {
-    background-color: #131313;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .titulo-sobre-nosotros{
     display: flex;
     font-size: 2.2rem;
@@ -34,17 +27,19 @@ body {
 .titulo-vision {
     display: flex;
     font-size: 2.5rem;
-    color: #000;
+    color: #fff;
     text-align: center;
     justify-content: center;
     margin: 10px 0px;
 }
 .vision {
     font-size: 1.3rem;
+    color: #fff;
     text-align: left;
     justify-content: left;
     margin: -25px 20px;
     line-height: 2.2rem;
+    
 }
 
 .vison p {
@@ -52,11 +47,13 @@ body {
     margin: 0px 20px;
     flex: 1; 
     font-size: 1.4rem;
+    color: #fff;
     line-height: 2.2rem;
 }
 
 .beneficios {
     font-size: 1.3rem;
+    color: #fff;
     text-align: left;
     justify-content: left;
     margin: 60px 10px;
@@ -73,6 +70,7 @@ body {
     align-items: center;
     display: flex;
     margin: 30px 10px;
+    
 }
 
 .beneficios .icono-hoja{
@@ -87,6 +85,7 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     line-height: 1.5rem;
+    color: #fff;
 }
 
 .beneficios a  {
@@ -96,10 +95,12 @@ body {
 
 .compromiso h3 {
     font-size: 2.5rem;
+    color: #fff;
     text-align: center;
 }
 .compromiso {
     font-size: 1.3rem;
+    color: #fff;
     text-align: left;
     justify-content: left;
     margin: 40px 20px;
@@ -118,6 +119,7 @@ body {
 
 .texto-equipo {
     font-size: 1.3rem;
+    color: #fff;
     line-height: 2.2rem;
     text-align: left;
     justify-content: left;
