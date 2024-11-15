@@ -12,6 +12,7 @@
     right: 30px;
     font-size: 28px;
     cursor: pointer;
+    color: #FFF;
 }
 
 #menu-toggle:checked + .menu-modal {
