@@ -30,7 +30,6 @@
 
 /* Tablets en orientación vertical y teléfonos grandes */
 @media (min-width: 481px) and (max-width: 767px) {
-
     .navlinks {
         display: none;
     }
