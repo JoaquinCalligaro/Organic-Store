@@ -7,12 +7,9 @@
 .menu-icon {
     display: flex;
     align-items: right;
-    flex-direction: column;
-    font-size: 28px;
     cursor: pointer;
     color: #FFF;
     margin: auto;
-    margin-right: 30px;
 }
 
 #menu-toggle:checked + .menu-modal {
@@ -66,7 +63,6 @@
 }
 
 .menu-links li{
-    
     margin: 10px 0px;
 }
 

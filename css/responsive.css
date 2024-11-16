@@ -1,3 +1,11 @@
+.menu-icon {
+    display: none;
+}
+
+.navlinks {
+    display: none;
+}
+
 /* Dispositivos de escritorio grandes, como monitores de 4K */
 @media (min-width: 2560px) {
     .menu-icon {
@@ -7,11 +15,39 @@
 
 /* Pantallas de escritorio grandes, como monitores de 1080p o superiores */
 @media (min-width: 1920px) and (max-width: 2559px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 120px; /* Ajusta el espacio del logo */
+    }
+    .logo {
+        position: relative;
+        height: 120px;
+        width: auto;
+    }
+    .navlinks {
+        display: flex;
+        list-style-type: none;
+        margin: auto;
+        font-size: 1.2rem;
+        justify-content: space-between;
+        
+    }
+
+    .navlinks li{
+        display: inline-block;
+        margin: 0 30px;
+    }
     .menu-icon {
         display: none;
     }
+    .busqueda, .favoritos, .carrito {
+        display: none;
+        
+    }
 }
-
 /* Pantallas de computadoras portátiles o monitores de tamaño medio */
 @media (min-width: 1280px) and (max-width: 1919px) {
     .menu-icon {
@@ -21,10 +57,36 @@
 
 
 @media (min-width: 768px) and (max-width: 1279px) {
-    .menu-icon {
+
+    .navlinks {
         display: none;
     }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .logo{
+        display: flex;
+        max-width: 25%;
+        height: auto;
+        margin: auto;
+        
+    }
+
+    .menu-icon {
+        display: flex;
+        font-size: 2.4rem;
+        margin: auto 55px;
+    }
+
+    .navbar__cart, .navbar__favorites {
+        display: flex;
+        height: 35px;
+        margin: 25px 15px;
+        
+    }
 
 }
 
@@ -33,21 +95,31 @@
     .navlinks {
         display: none;
     }
-    .logo{
+    .navbar{
         display: flex;
-        width: 100px;
-        height: 80px;
-        text-align: center;
         align-items: center;
-        margin: auto;
+        justify-content: space-between;
     }
 
-    .busqueda, .favoritos, .carrito {
+    .logo{
+        display: flex;
+        max-width: 25%;
+        height: auto;
+        margin: auto;
+        
+    }
+
+    .menu-icon {
+        display: flex;
+        font-size: 2.4rem;
+        margin: auto 45px;
+    }
+
+    .navbar__cart, .navbar__favorites {
+        display: flex;
         height: 30px;
-        width: auto;
-        align-items: left; 
-        text-align: left;
         margin: 25px 15px;
+        
     }
 
 
@@ -55,34 +127,43 @@
 
 /* Teléfonos pequeños */
 @media (max-width: 480px)  {
-    .navlinks {
-        display: none;
-    }
 
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .logo{
-        width: 100px;
+        display: flex;
+        max-width: 25%;
+        height: auto;
+        margin: auto;
+        
     }
     
-    nav-links.open{
+
+    .navbar__cart, .navbar__favorites {
         display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 10px;
-        background-color: #4CAF50;
-        width: 150px;
+        height: 30px;
+        margin: 25px 15px;
+        
     }
 
+    .menu-icon {
+        display: flex;
+        font-size: 2.4rem;
+        margin: auto 45px;
+    }
     .menu-content {
         background-color: #fff;
         padding: 30px;
         border-radius: 10px;
         height: 30%;
-        width: 80%;
-        max-width: 400px;
+        width: 90%;
+        max-width: 25rem;
         text-align: center;
         position: relative;
-        top: 10 0px;
+        top: 10px 0px;
         box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.3);
         z-index: 1;
     }

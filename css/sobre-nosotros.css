@@ -2,11 +2,11 @@
     display: flex;
     font-size: 2.2rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    color: #ffff;
     text-align: center;
     justify-content: center;
     margin: 0px 30px;
-    color: #fff;
+    
 }
 
 .resaltar {
@@ -14,32 +14,31 @@
     color: #1a8301;
     font-weight: bold;
 }
-.subtitulo {
+.texto__about {
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: #ffff;
     text-align: left;
     justify-content: left;
-    margin: 0px 20px;
+    padding: 0px 30px;
     line-height: 2.5rem;
 }
 
 .titulo-vision {
     display: flex;
     font-size: 2.5rem;
-    color: #fff;
+    color: #ffff;
     text-align: center;
     justify-content: center;
-    margin: 10px 0px;
+    
 }
 .vision {
     font-size: 1.3rem;
-    color: #fff;
+    color:#ffff;
     text-align: left;
     justify-content: left;
-    margin: -25px 20px;
     line-height: 2.2rem;
-    
+    padding: 0px 30px;
 }
 
 .vison p {
@@ -47,17 +46,19 @@
     margin: 0px 20px;
     flex: 1; 
     font-size: 1.4rem;
-    color: #fff;
+    color:#ffff;
     line-height: 2.2rem;
+    
 }
 
 .beneficios {
     font-size: 1.3rem;
-    color: #fff;
+    color:#ffff;
     text-align: left;
     justify-content: left;
     margin: 60px 10px;
     line-height: 2.5rem;
+    padding: 0px 30px;
     
 }
 
@@ -85,7 +86,7 @@
     text-decoration: none;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #fff;
+    color:#ffff;
 }
 
 .beneficios a  {
@@ -95,15 +96,15 @@
 
 .compromiso h3 {
     font-size: 2.5rem;
-    color: #fff;
+    color:#ffff;
     text-align: center;
 }
 .compromiso {
     font-size: 1.3rem;
-    color: #fff;
+    color:#ffff;
     text-align: left;
     justify-content: left;
-    margin: 40px 20px;
+    padding: 0px 30px;
     line-height: 2.2rem;
 }
 
@@ -119,11 +120,11 @@
 
 .texto-equipo {
     font-size: 1.3rem;
-    color: #fff;
+    color:#ffff;
     line-height: 2.2rem;
     text-align: left;
     justify-content: left;
-    margin: 40px 20px;
+    padding: 0px 30px;
 }
 
 

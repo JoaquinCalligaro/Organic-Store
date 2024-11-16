@@ -6,29 +6,24 @@ body{
 }
 
 .navbar{
-    background-color: #485D25;
     display: flex;
+    background-color: #485D25;
+    
 }
-
-
 
 .navlinks{
     display: flex;
     list-style-type: none;
-    margin: 30px 20px;
-    padding: 0;
-    font-weight: 400;
 }
 
 .navlinks li{
-    display: inline-block;
+    display: inline;
     margin: 0 30px;
     
 }
 
 .navlinks a {
-    color: black;
-    font-size: 18px;
+    color: #000;
     text-decoration: none;
     
 }
@@ -37,5 +32,6 @@ body{
     color: #fff;
     text-decoration: underline;
 }
+
 
 
