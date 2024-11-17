@@ -1,56 +1,64 @@
-.menu-icon {
+.header__menu__icon {
     display: none;
 }
 
-.navlinks {
+.header__navbar__navlinks {
     display: none;
 }
 
 /* Dispositivos de escritorio grandes, como monitores de 4K */
 @media (min-width: 2560px) {
-    .navbar{
+
+    .header__navbar{
         display: flex;
         align-items: center;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        height: 150px; /* Define altura consistente */
-        z-index: 10; /* Prioridad sobre otros elementos */
+        height: 110px; 
+        z-index: 10; 
         align-items: center;
     }
 
 
-    .menu-icon {
-        display: none;
-    }
-
-    .logo {
+    .header__navbar__logo {
         position: relative;
-        width: 8%;
+        width: 9%;
         height: auto;
-        margin: auto 400px;
+        margin: auto 100px;
         
     }
     
-    .navlinks {
-        display: flex;
-        list-style-type: none;
-        margin: auto 190px;
-        font-size: 2rem;
-        justify-content: space-between;
-        
-    }
 
-    .navlinks li{
-        display: inline-block;
-        margin: 0 30px;
-        
-    }
+    /* Estilo para los enlaces */
+    .header__navbar__navlinks a {
+        display: flex;                
+        list-style-type: none;        
+        font-size: 1.3rem;
+        margin: 0px 20px;            
+        color: #fff;                 
+        text-decoration: none;       
 
-    .navbar__cart, .navbar__favorites {
+}
+
+    .header__navbar__cart, .header__navbar__favorites {
         display: none;
 
+    }
+    
+    .main__title__about-us,
+    .main__text__about-us,
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
+        padding: 0 350px;
+    }
+
+    .header__menu__icon {
+        display: none;
     }
 }
 
@@ -79,18 +87,19 @@
         
     }
     
+    .header__navbar__navlinks{
+        display: flex;
+    }
 
     /* Estilo para los enlaces */
     .header__navbar__navlinks a {
-        display: flex;                /* Mantén el display como flex */
-        list-style-type: none;        /* Elimina los puntos de lista */
+        display: flex;                
+        list-style-type: none;        
         font-size: 1.3rem;
-        margin: 0px 20px;             /* Espaciado entre enlaces */
-        color: #fff;                  /* Color blanco */
-        text-decoration: none;       /* Elimina el subrayado de los enlaces */
-
-}
-
+        margin: 0px 20px;            
+        color: #fff;                 
+        text-decoration: none;       
+    }
 
     .header__navbar__cart, .header__navbar__favorites {
         display: none;
@@ -126,21 +135,21 @@
         align-items: center;
     }
 
-    .header__navbar__navlinks {
+    .header__navbar__navlinks{
         display: flex;
-        list-style-type: none;
-        margin: auto;
-        font-size: 1.2rem;
-        justify-content: space-between;
-        color: #fff;
-        margin: auto 10px;
+        margin: 20px 0px;
     }
 
-    .header__navbar__navlinks li{
-        display: inline-block;
-        margin: 0 30px;
-        
+    /* Estilo para los enlaces */
+    .header__navbar__navlinks a {
+        display: flex;                
+        list-style-type: none;        
+        font-size: 1.3rem;
+        margin: 0px 20px;           
+        color: #fff;                 
+        text-decoration: none;       
     }
+
 
     .header__navbar__cart, .header__navbar__favorites {
         display: none;
@@ -202,6 +211,13 @@
         margin: auto;
         
     }
+    .header__navbar__cart, 
+    .header__navbar__favorites {
+        display: flex;
+        height: 40px;
+        margin: 25px 15px;
+        
+    }
 
     .header__menu__icon {
         display: flex;
@@ -222,18 +238,13 @@
         padding: 0 50px;
     }
 
-    .navbar__cart, .navbar__favorites {
-        display: flex;
-        height: 35px;
-        margin: 25px 15px;
-        
-    }
+
 
 }
 
 /* Tablets en orientación vertical y teléfonos grandes */
 @media (min-width: 481px) and (max-width: 767px) {
-    
+
     .header__navbar{
         display: flex;
         align-items: center;
@@ -242,8 +253,8 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100px; /* Define altura consistente */
-        z-index: 10; /* Prioridad sobre otros elementos */
+        height: 100px;
+        z-index: 10; 
         align-items: center;
     }
 
@@ -257,16 +268,22 @@
 
     .header__navbar__logo{
         display: flex;
-        max-width: 25%;
+        max-width: 28%;
         height: auto;
         margin: auto;
         
+    }
+    .header__menu__icon {
+        display: flex;
+        font-size: 2.4rem;
+        margin: auto 45px;
     }
 
     .header__navbar__navlinks {
         display: none;
     }
-    
+
+
     .main__title__about-us, 
     .main__text__about-us, 
     .main__title__mision,
@@ -275,12 +292,6 @@
     .main__commitment, 
     .main__teamgroup {
         padding: 0px 50px;
-    }
-
-    .header__menu__icon {
-        display: flex;
-        font-size: 2.4rem;
-        margin: auto 45px;
     }
 
 
@@ -305,30 +316,22 @@
     }
     .header__navbar__logo{
         display: flex;
-        max-width: 28%;
+        max-width: 30%;
         height: auto;
         margin: auto;
         
     }
     
 
-    .header__navbar__cart, .header__navbar__favorite {
+    .header__navbar__cart, 
+    .header__navbar__favorites {
         display: flex;
         height: 30px;
         margin: 25px 15px;
         
     }
 
-    .main__title__about-us, 
-    .main__text__about-us, 
-    .main__title__mision,
-    .main__benefits,
-    .main__text__mision, 
-    .main__commitment, 
-    .main__teamgroup {
-        margin: 0px 40px;
-    }
-    
+
     .header__menu__icon {
         display: flex;
         font-size: 2.4rem;
@@ -347,6 +350,18 @@
         box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.3);
         z-index: 1;
     }
+
+
+    .main__title__about-us, 
+    .main__text__about-us, 
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
+        margin: 0px 40px;
+    }
+    
 
 }
 
