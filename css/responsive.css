@@ -58,23 +58,20 @@
 /* Pantallas de escritorio grandes, como monitores de 1080p o superiores */
 @media (min-width: 1920px) and (max-width: 2559px) {
 
-    .navbar{
+    .header__navbar{
         display: flex;
         align-items: center;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        height: 110px; /* Define altura consistente */
-        z-index: 10; /* Prioridad sobre otros elementos */
+        height: 110px; 
+        z-index: 10; 
         align-items: center;
     }
 
-    .menu-icon {
-        display: none;
-    }
 
-    .logo {
+    .header__navbar__logo {
         position: relative;
         width: 9%;
         height: auto;
@@ -82,37 +79,42 @@
         
     }
     
-    .navlinks {
-        display: flex;
-        list-style-type: none;
-        font-size: 1.3rem;
-        margin:  0px 200px;
-    }
 
-    .navbar__cart, .navbar__favorites {
+    /* Estilo para los enlaces */
+    .header__navbar__navlinks a {
+        display: flex;                /* Mantén el display como flex */
+        list-style-type: none;        /* Elimina los puntos de lista */
+        font-size: 1.3rem;
+        margin: 0px 20px;             /* Espaciado entre enlaces */
+        color: #fff;                  /* Color blanco */
+        text-decoration: none;       /* Elimina el subrayado de los enlaces */
+
+}
+
+
+    .header__navbar__cart, .header__navbar__favorites {
         display: none;
 
     }
-
-    .titulo__sobre__nosotros{
-        margin-top: 105px;
-    }
-    /* Ajustar el padding para que no se salga de la pantalla */ 
-    .texto__about, .titulo-mision, 
-    .mision, 
-    .beneficios, 
-    .compromiso, 
-    .texto-equipo {
+    
+    .main__title__about-us,
+    .main__text__about-us,
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
         padding: 0 350px;
+    }
+
+    .header__menu__icon {
+        display: none;
     }
 }
 /* Pantallas de computadoras portátiles o monitores de tamaño medio */
 @media (min-width: 1280px) and (max-width: 1919px) {
-    .menu-icon {
-        display: none;
-    }
 
-    .navbar{
+    .header__navbar{
         display: flex;
         align-items: center;
         position: fixed;
@@ -123,25 +125,8 @@
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
-    
-    .titulo__sobre__nosotros {
-        margin-top: 105px;
-    } 
-    .texto__about, .titulo-mision, 
-    .mision, 
-    .beneficios, 
-    .compromiso, 
-    .texto-equipo {
-        padding: 0 50px;
-    }
-    .logo {
-        position: relative;
-        width: 13%;
-        height: auto;
-        margin: auto 100px;
-    }
-    
-    .navlinks {
+
+    .header__navbar__navlinks {
         display: flex;
         list-style-type: none;
         margin: auto;
@@ -151,26 +136,48 @@
         margin: auto 10px;
     }
 
-    .navlinks li{
+    .header__navbar__navlinks li{
         display: inline-block;
         margin: 0 30px;
         
     }
 
-    .navbar__cart, .navbar__favorites {
+    .header__navbar__cart, .header__navbar__favorites {
         display: none;
 
+    }
+
+
+    .header__navbar__logo {
+        position: relative;
+        width: 13%;
+        height: auto;
+        margin: auto 100px;
+    }
+
+
+    .main__title__about-us {
+        margin-top: 105px;
+    } 
+    .main__text__about-us, 
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
+        padding: 0 50px;
+    }
+
+    
+    .header__menu__icon {
+        display: none;
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 1279px) {
 
-    .navlinks {
-        display: none;
-    }
-
-    .navbar{
+    .header__navbar{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -183,7 +190,12 @@
         align-items: center;
     }
 
-    .logo{
+    .header__navbar__navlinks {
+        display: none;
+    }
+
+
+    .header__navbar__logo{
         display: flex;
         max-width: 20%;
         height: auto;
@@ -191,7 +203,7 @@
         
     }
 
-    .menu-icon {
+    .header__menu__icon {
         display: flex;
         font-size: 2.4rem;
         margin: auto 55px;
@@ -200,11 +212,13 @@
         margin-top: 105px;
     }
 
-    .texto__about, .titulo-mision, 
-    .mision, 
-    .beneficios, 
-    .compromiso, 
-    .texto-equipo {
+    .main__title__about-us, 
+    .main__text__about-us, 
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
         padding: 0 50px;
     }
 
@@ -305,12 +319,13 @@
         
     }
 
-    .titulo__sobre__nosotros, 
-    .texto__about, .titulo-mision, 
-    .mision, 
-    .beneficios, 
-    .compromiso, 
-    .texto-equipo {
+    .main__title__about-us, 
+    .main__text__about-us, 
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
         margin: 0px 40px;
     }
     

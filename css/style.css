@@ -17,8 +17,14 @@ body {
 .header__navbar__navlinks {
     display: flex;
     list-style-type: none;
-    margin: auto;
-    padding: auto;
+    margin: 180px;
+    gap: 30px;
+}
+
+
+.header__navbar__navlinks :hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 .header__navbar__navlinks__item li {

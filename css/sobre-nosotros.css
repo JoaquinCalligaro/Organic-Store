@@ -5,9 +5,9 @@
     font-size: 2.4rem;
     line-height: 1.2rem;
     color: #000;
-    justify-content: left;    
-    align-items: left;             
-    text-align: left;  
+    justify-content: center;    
+    align-items: center;             
+    text-align: center;  
     margin-top: 80px;    
     }
 
@@ -69,6 +69,7 @@
     margin-bottom: 1.8rem;  /* Espacio entre cada ítem de la lista */
   }
   
+  
   /* Estilo para los iconos */
   .main__benefits__icon {
     margin-right: 1.2rem;  /* Añadimos un margen a la derecha del icono para separarlo del texto */
@@ -76,6 +77,7 @@
     height: 64px; /* Tamaño fijo para los iconos */
   }
   
+
   /* Estilo para el texto de cada ítem */
   .main__benefits__list li span {
     font-size: 1.3rem;
@@ -89,7 +91,7 @@
     text-decoration: none;  /* Elimina el subrayado del enlace */
     color: inherit;  /* Hereda el color del texto */
   }
-  .__benefits__list li :hover {
+  .main__benefits__list li :hover {
     text-decoration: underline #936639 ;
 }
 
