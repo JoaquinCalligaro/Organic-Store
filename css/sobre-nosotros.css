@@ -81,17 +81,23 @@
 
 
 .beneficios li span {
-    text-decoration: none;
+    display: flex;
     font-size: 1.2rem;
     line-height: 1.5rem;
     color:#936639;
     font-weight: 400;
-    padding: 70px 10px;
+    margin: 35px 30px; 
 }
+
+.beneficios li :hover {
+    text-decoration: underline #936639 ;
+    
+}
+
 
 .beneficios a  {
     text-decoration: none;
-    padding: 15px 0px;
+    
     color: #000;
 }
 

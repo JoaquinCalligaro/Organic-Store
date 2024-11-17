@@ -304,7 +304,7 @@
     .beneficios, 
     .compromiso, 
     .texto-equipo {
-        padding: 0 40px;
+        margin: 0px 40px;
     }
     .menu-icon {
         display: flex;
