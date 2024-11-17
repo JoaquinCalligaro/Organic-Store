@@ -6,7 +6,7 @@ body {
     padding-top: 80px; /* Asegura espacio suficiente para la navbar fija */
 }
 
-.navbar {
+.header__navbar {
     display: flex;
     position: fixed; /* Hace la barra fija */
     background-color: #c9d799;
@@ -14,23 +14,23 @@ body {
 
 
 
-.navlinks {
+.header__navbar__navlinks {
     display: flex;
     list-style-type: none;
     margin: auto;
     padding: auto;
 }
 
-.navlinks li {
+.header__navbar__navlinks__item li {
     margin: 0 30px;
 }
 
-.navlinks a {
+.header__navbar__navlinks__link {
     color: #000;
     text-decoration: none;
 }
 
-.navlinks a:hover {
+.header__navbar__link a:hover {
     color: #000;
     text-decoration: underline;
 }

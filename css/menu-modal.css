@@ -1,10 +1,10 @@
 /* ocultar menu toggle */
-#menu-toggle {
+.header__menu__toggle {
     display: none;
 }
 
 /* Icono de la hamburgesa*/
-.menu-icon {
+.header__menu__icon {
     display: flex;
     align-items: right;
     cursor: pointer;
@@ -12,11 +12,11 @@
     margin: auto;
 }
 
-#menu-toggle:checked + .menu-modal {
+.header__menu__toggle:checked + .header__menu__modal {
     display: flex;
 }
 
-.menu-modal {
+.header__menu__modal {
     display: none;
     position: fixed;
     top: 0px;
@@ -29,7 +29,7 @@
     z-index: 0;
 }
 
-.menu-content {
+.header__menu__content {
     background-color: #FFF;
     padding: 20px;
     border-radius: 10px;
@@ -45,7 +45,7 @@
 
 /* boton cerrar modal */
 
-.close-btn{
+.header__menu__close-btn{
     font-size: 45px;
     color: #ff0000;
     position: absolute;
@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 
-.menu-links{
+.header__menu__links{
     font-size: 40px;
     font-weight: 600;
     list-style-type: none;
@@ -62,11 +62,11 @@
     margin: 10px 0px 0px;
 }
 
-.menu-links li{
+.header__menu__links li{
     margin: 10px 0px;
 }
 
-.menu-links a {
+.header__menu__links a {
     text-decoration: none;
     color: #000;
     font-size: 18px;

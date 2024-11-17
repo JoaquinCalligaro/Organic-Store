@@ -219,10 +219,8 @@
 
 /* Tablets en orientación vertical y teléfonos grandes */
 @media (min-width: 481px) and (max-width: 767px) {
-    .navlinks {
-        display: none;
-    }
-    .navbar{
+    
+    .header__navbar{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -234,35 +232,44 @@
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
-    .logo{
+
+    .header__navbar__cart, 
+    .header__navbar__favorites {
+        display: flex;
+        height: 30px;
+        margin: 25px 15px;
+        
+    }
+
+    .header__navbar__logo{
         display: flex;
         max-width: 25%;
         height: auto;
         margin: auto;
         
     }
+
+    .header__navbar__navlinks {
+        display: none;
+    }
     
-    .titulo__sobre__nosotros, 
-    .texto__about, .titulo-mision, 
-    .mision, 
-    .beneficios, 
-    .compromiso, 
-    .texto-equipo {
-        padding: 0 50px;
+    .main__title__about-us, 
+    .main__text__about-us, 
+    .main__title__mision,
+    .main__benefits,
+    .main__text__mision, 
+    .main__commitment, 
+    .main__teamgroup {
+        padding: 0px 50px;
     }
 
-    .menu-icon {
+    .header__menu__icon {
         display: flex;
         font-size: 2.4rem;
         margin: auto 45px;
     }
 
-    .navbar__cart, .navbar__favorites {
-        display: flex;
-        height: 30px;
-        margin: 25px 15px;
-        
-    }
+
 
 
 }
@@ -270,7 +277,7 @@
 /* Teléfonos pequeños */
 @media (max-width: 480px)  {
 
-    .navbar{
+    .header__navbar{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -282,7 +289,7 @@
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
-    .logo{
+    .header__navbar__logo{
         display: flex;
         max-width: 28%;
         height: auto;
@@ -291,7 +298,7 @@
     }
     
 
-    .navbar__cart, .navbar__favorites {
+    .header__navbar__cart, .header__navbar__favorite {
         display: flex;
         height: 30px;
         margin: 25px 15px;
@@ -306,12 +313,13 @@
     .texto-equipo {
         margin: 0px 40px;
     }
-    .menu-icon {
+    
+    .header__menu__icon {
         display: flex;
         font-size: 2.4rem;
         margin: auto 45px;
     }
-    .menu-content {
+    .header__menu__content {
         background-color: #fff;
         padding: 30px;
         border-radius: 10px;

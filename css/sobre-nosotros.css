@@ -1,113 +1,112 @@
 
-.titulo__sobre__nosotros{
-    font-size: 2.5rem;
-    line-height: 3.2rem;
-    color: #000;
-    text-align: center;
-    justify-content: center;
-    
-}
 
-.resaltar {
+/* propiedades sobre nostros */
+.main__title__about-us{
+    font-size: 2.4rem;
+    line-height: 1.2rem;
+    color: #000;
+    justify-content: left;    
+    align-items: left;             
+    text-align: left;  
+    margin-top: 80px;    
+    }
+
+.main__highlight {
     display: inline-block;
     color: #1a8301;
     font-weight: bold;
 }
 
-.texto__about {
+.main__text__about-us {
     font-size: 1.3rem;
     line-height: 2.5rem;
     color: #000;
     text-align: left;
     justify-content: left;
-    
-    
 }
 
-.titulo-mision {
-    
-    font-size: 2.5rem;
+
+/* propiedades de nuestra mision */
+.main__title__mision {
+    font-size: 2.4rem;
     color: #000;
     text-align: center;
     justify-content: center;
-    
 }
-.mision {
+.main__text__mision {
     font-size: 1.3rem;
     color:#000;
     text-align: left;
     justify-content: left;
-    line-height: 2.2rem;
-    margin-bottom: 30px;
-}
-
-.vison p {
-    text-align: left; 
-    margin: 0px 20px;
-    flex: 1; 
-    font-size: 1.4rem;
-    color:#000;
-    line-height: 2.2rem;
-    
-}
-
-.beneficios {
-    font-size: 1.3rem;
-    color:#000;
-    text-align: left;
-    justify-content: left;
-    margin: 60px 10px;
     line-height: 2.5rem;
-    
-}
-
-.beneficios ul {
-    padding: 0;
-}
-
-.beneficios li {
-    list-style-type: none;
-    align-items: center;
-    display: flex;
-    
-}
-
-.beneficios .icono-hoja{
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 
 
-.beneficios li span {
-    display: flex;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    color:#936639;
-    font-weight: 400;
-    margin: 35px 30px; 
-}
-
-.beneficios li :hover {
-    text-decoration: underline #936639 ;
-    
-}
-
-
-.beneficios a  {
-    text-decoration: none;
-    
+/* Propiedades generales para los beneficios */
+.main__benefits {
+    font-size: 1.3rem;
     color: #000;
+    text-align: left;
+    margin: 0px 10px;
+    line-height: 2.5rem;
+    margin-bottom: 100px;
+  }
+  
+  /* Quitar los puntos de lista */
+  .main__benefits__list {
+    list-style-type: none;  /* Esto elimina los puntos de la lista */
+    padding: 0;  /* Elimina el padding predeterminado de los elementos de lista */
+    margin: 0;   /* Elimina los márgenes predeterminados */
+  }
+  
+  /* Estilo para cada item de la lista */
+  .main__benefits__list li {
+    display: flex;  /* Usamos flexbox para colocar el icono a la izquierda y el texto a la derecha */
+    align-items: center;  /* Alinea verticalmente los items */
+    margin-bottom: 1.8rem;  /* Espacio entre cada ítem de la lista */
+  }
+  
+  /* Estilo para los iconos */
+  .main__benefits__icon {
+    margin-right: 1.2rem;  /* Añadimos un margen a la derecha del icono para separarlo del texto */
+    width: 64px;  /* Tamaño fijo para los iconos */
+    height: 64px; /* Tamaño fijo para los iconos */
+  }
+  
+  /* Estilo para el texto de cada ítem */
+  .main__benefits__list li span {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: #936639;
+    font-weight: 500;
+    margin: 0px;
+  }
+  /* Estilo para los enlaces dentro de los ítems */
+  .main__benefits__list li a {
+    text-decoration: none;  /* Elimina el subrayado del enlace */
+    color: inherit;  /* Hereda el color del texto */
+  }
+  .__benefits__list li :hover {
+    text-decoration: underline #936639 ;
 }
 
-.compromiso h3 {
+
+
+/* propiedades de compromiso */
+
+
+.main__commitment__title  {
     font-size: 2.5rem;
     color:#000;
     text-align: center;
     margin-bottom: 40px;
 }
-.compromiso {
+
+
+.main__commitment__text {
     font-size: 1.3rem;
     color:#000;
     text-align: left;
@@ -116,7 +115,7 @@
     margin-bottom: 80px;
 }
 
-.imagen-equipo img {
+.main__image__teamgroup {
     display: flex;
     width: 350px;
     height: 350px;
@@ -126,7 +125,7 @@
 
 }
 
-.texto-equipo {
+.main__text__teamgroup {
     font-size: 1.3rem;
     color:#000;
     line-height: 2.2rem;
