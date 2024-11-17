@@ -1,11 +1,11 @@
 
 .titulo__sobre__nosotros{
-    display: flex;
     font-size: 2.5rem;
     line-height: 3.2rem;
     color: #000;
     text-align: center;
     justify-content: center;
+    
 }
 
 .resaltar {
@@ -20,12 +20,12 @@
     color: #000;
     text-align: left;
     justify-content: left;
-    margin: auto;
+    
     
 }
 
 .titulo-vision {
-    display: flex;
+    
     font-size: 2.5rem;
     color: #000;
     text-align: center;
@@ -38,6 +38,7 @@
     text-align: left;
     justify-content: left;
     line-height: 2.2rem;
+    margin-bottom: 30px;
 }
 
 .vison p {
@@ -98,6 +99,7 @@
     font-size: 2.5rem;
     color:#000;
     text-align: center;
+    margin-bottom: 40px;
 }
 .compromiso {
     font-size: 1.3rem;
@@ -105,6 +107,7 @@
     text-align: left;
     justify-content: left;
     line-height: 2.2rem;
+    margin-bottom: 80px;
 }
 
 .imagen-equipo img {
@@ -123,7 +126,7 @@
     line-height: 2.2rem;
     text-align: left;
     justify-content: left;
-    margin: 50px 0px;
+    margin: 80px 0px;
 }
 
 

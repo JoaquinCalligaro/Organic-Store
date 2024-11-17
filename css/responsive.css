@@ -94,7 +94,10 @@
 
     }
 
-    .titulo__sobre__nosotros, 
+    .titulo__sobre__nosotros{
+        margin-top: 105px;
+    }
+    /* Ajustar el padding para que no se salga de la pantalla */ 
     .texto__about, .titulo-vision, 
     .vision, 
     .beneficios, 
@@ -121,7 +124,9 @@
         align-items: center;
     }
     
-    .titulo__sobre__nosotros, 
+    .titulo__sobre__nosotros {
+        margin-top: 105px;
+    } 
     .texto__about, .titulo-vision, 
     .vision, 
     .beneficios, 
@@ -191,6 +196,17 @@
         font-size: 2.4rem;
         margin: auto 55px;
     }
+    .titulo__sobre__nosotros{
+        margin-top: 105px;
+    }
+
+    .texto__about, .titulo-vision, 
+    .vision, 
+    .beneficios, 
+    .compromiso, 
+    .texto-equipo {
+        padding: 0 50px;
+    }
 
     .navbar__cart, .navbar__favorites {
         display: flex;
@@ -225,7 +241,7 @@
         margin: auto;
         
     }
-
+    
     .titulo__sobre__nosotros, 
     .texto__about, .titulo-vision, 
     .vision, 
@@ -282,6 +298,14 @@
         
     }
 
+    .titulo__sobre__nosotros, 
+    .texto__about, .titulo-vision, 
+    .vision, 
+    .beneficios, 
+    .compromiso, 
+    .texto-equipo {
+        padding: 0 40px;
+    }
     .menu-icon {
         display: flex;
         font-size: 2.4rem;
