@@ -23,8 +23,10 @@ body {
 
 
 .header__navbar__navlinks :hover {
-    color: #000;
-    text-decoration: underline;
+    color: #7F4F24;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+    font-weight: bold;
 }
 
 .header__navbar__navlinks__item li {

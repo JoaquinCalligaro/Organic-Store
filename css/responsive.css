@@ -37,7 +37,7 @@
         list-style-type: none;        
         font-size: 1.3rem;
         margin: 0px 20px;            
-        color: #fff;                 
+        color: #000;                 
         text-decoration: none;       
 
 }
@@ -97,7 +97,7 @@
         list-style-type: none;        
         font-size: 1.3rem;
         margin: 0px 20px;            
-        color: #fff;                 
+        color: #000;                 
         text-decoration: none;       
     }
 
@@ -146,7 +146,7 @@
         list-style-type: none;        
         font-size: 1.3rem;
         margin: 0px 20px;           
-        color: #fff;                 
+        color: #000;                 
         text-decoration: none;       
     }
 
@@ -189,46 +189,47 @@
     .header__navbar{
         display: flex;
         align-items: center;
-        justify-content: space-between;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        height: 150px; /* Define altura consistente */
+        height: 110px; /* Define altura consistente */
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
 
-    .header__navbar__navlinks {
+    .header__navbar__navlinks{
+        display: flex;
+        margin: 20px 0px;
+    }
+
+    /* Estilo para los enlaces */
+    .header__navbar__navlinks a {
+        display: flex;                
+        list-style-type: none;        
+        font-size: 1.3rem;
+        color: #000;                 
+        text-decoration: none;       
+    }
+
+
+    .header__navbar__cart, .header__navbar__favorites {
         display: none;
+
     }
 
 
-    .header__navbar__logo{
-        display: flex;
-        max-width: 20%;
+    .header__navbar__logo {
+        position: relative;
+        width: 13%;
         height: auto;
-        margin: auto;
-        
-    }
-    .header__navbar__cart, 
-    .header__navbar__favorites {
-        display: flex;
-        height: 40px;
-        margin: 25px 15px;
-        
+        margin: auto 100px;
     }
 
-    .header__menu__icon {
-        display: flex;
-        font-size: 2.4rem;
-        margin: auto 55px;
-    }
-    .titulo__sobre__nosotros{
+
+    .main__title__about-us {
         margin-top: 105px;
-    }
-
-    .main__title__about-us, 
+    } 
     .main__text__about-us, 
     .main__title__mision,
     .main__benefits,
@@ -238,6 +239,10 @@
         padding: 0 50px;
     }
 
+    
+    .header__menu__icon {
+        display: none;
+    }
 
 
 }
