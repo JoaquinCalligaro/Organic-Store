@@ -47,7 +47,7 @@
 
 .close-btn{
     font-size: 45px;
-    color: red;
+    color: #ff0000;
     position: absolute;
     top: 10px;
     right: 30px;
@@ -68,6 +68,6 @@
 
 .menu-links a {
     text-decoration: none;
-    color: black;
+    color: #0000;
     font-size: 18px;
 }

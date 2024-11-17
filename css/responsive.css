@@ -11,7 +11,17 @@
     
     .navbar{
         display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150px; /* Define altura consistente */
+        background-color: #485D25;
+        z-index: 10; /* Prioridad sobre otros elementos */
+        align-items: center;
     }
+
 
     .menu-icon {
         display: none;
@@ -52,6 +62,15 @@
 
     .navbar{
         display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110px; /* Define altura consistente */
+        background-color: #485D25;
+        z-index: 10; /* Prioridad sobre otros elementos */
+        align-items: center;
     }
 
     .menu-icon {
@@ -63,7 +82,7 @@
         width: 9%;
         height: auto;
         margin: auto 100px;
-        padding: 10px 0px;
+        
     }
     
     .navlinks {
@@ -88,9 +107,21 @@
 }
 /* Pantallas de computadoras portátiles o monitores de tamaño medio */
 @media (min-width: 1280px) and (max-width: 1919px) {
-   
     .menu-icon {
         display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110px; /* Define altura consistente */
+        background-color: #485D25;
+        z-index: 10; /* Prioridad sobre otros elementos */
+        align-items: center;
     }
 
     .logo {
@@ -128,15 +159,24 @@
     .navlinks {
         display: none;
     }
+
     .navbar{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150px; /* Define altura consistente */
+        background-color: #485D25;
+        z-index: 10; /* Prioridad sobre otros elementos */
+        align-items: center;
     }
 
     .logo{
         display: flex;
-        max-width: 20%;
+        max-width: 25%;
         height: auto;
         margin: auto;
         
@@ -166,11 +206,18 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px; /* Define altura consistente */
+        background-color: #485D25;
+        z-index: 10; /* Prioridad sobre otros elementos */
+        align-items: center;
     }
-
     .logo{
         display: flex;
-        max-width: 25%;
+        max-width: 28%;
         height: auto;
         margin: auto;
         
@@ -199,10 +246,18 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px; /* Define altura consistente */
+        background-color: #485D25;
+        z-index: 10; /* Prioridad sobre otros elementos */
+        align-items: center;
     }
     .logo{
         display: flex;
-        max-width: 25%;
+        max-width: 28%;
         height: auto;
         margin: auto;
         
