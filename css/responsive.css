@@ -69,11 +69,10 @@
     .navlinks {
         display: flex;
         list-style-type: none;
-        margin: auto 190px;
-        font-size: 1.2rem;
+        margin: auto 270px;
+        font-size: 1.3rem;
         justify-content: space-between;
         
-       
     }
 
     .navlinks li{
