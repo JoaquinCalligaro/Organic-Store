@@ -1,13 +1,11 @@
 
-
 .titulo__sobre__nosotros{
     display: flex;
     font-size: 2.5rem;
     line-height: 3.2rem;
-    color: #ffff;
+    color: #000;
     text-align: center;
     justify-content: center;
-    
 }
 
 .resaltar {
@@ -15,14 +13,13 @@
     color: #1a8301;
     font-weight: bold;
 }
+
 .texto__about {
     font-size: 1.3rem;
     line-height: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffff;
+    color: #000;
     text-align: left;
     justify-content: left;
-    padding: 0px 20px;
     margin: auto;
     
 }
@@ -30,18 +27,17 @@
 .titulo-vision {
     display: flex;
     font-size: 2.5rem;
-    color: #ffff;
+    color: #000;
     text-align: center;
     justify-content: center;
     
 }
 .vision {
     font-size: 1.3rem;
-    color:#ffff;
+    color:#000;
     text-align: left;
     justify-content: left;
     line-height: 2.2rem;
-    padding: 0px 30px;
 }
 
 .vison p {
@@ -49,19 +45,18 @@
     margin: 0px 20px;
     flex: 1; 
     font-size: 1.4rem;
-    color:#ffff;
+    color:#000;
     line-height: 2.2rem;
     
 }
 
 .beneficios {
     font-size: 1.3rem;
-    color:#ffff;
+    color:#000;
     text-align: left;
     justify-content: left;
     margin: 60px 10px;
     line-height: 2.5rem;
-    padding: 0px 30px;
     
 }
 
@@ -73,7 +68,6 @@
     list-style-type: none;
     align-items: center;
     display: flex;
-    margin: 30px 10px;
     
 }
 
@@ -89,25 +83,27 @@
     text-decoration: none;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color:#ffff;
+    color:#936639;
+    font-weight: 400;
+    padding: 70px 10px;
 }
 
 .beneficios a  {
     text-decoration: none;
+    padding: 15px 0px;
     color: #000;
 }
 
 .compromiso h3 {
     font-size: 2.5rem;
-    color:#ffff;
+    color:#000;
     text-align: center;
 }
 .compromiso {
     font-size: 1.3rem;
-    color:#ffff;
+    color:#000;
     text-align: left;
     justify-content: left;
-    padding: 0px 30px;
     line-height: 2.2rem;
 }
 
@@ -123,11 +119,11 @@
 
 .texto-equipo {
     font-size: 1.3rem;
-    color:#ffff;
+    color:#000;
     line-height: 2.2rem;
     text-align: left;
     justify-content: left;
-    padding: 0px 30px;
+    margin: 50px 0px;
 }
 
 

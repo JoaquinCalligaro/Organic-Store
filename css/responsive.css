@@ -8,7 +8,6 @@
 
 /* Dispositivos de escritorio grandes, como monitores de 4K */
 @media (min-width: 2560px) {
-    
     .navbar{
         display: flex;
         align-items: center;
@@ -17,7 +16,6 @@
         left: 0;
         width: 100%;
         height: 150px; /* Define altura consistente */
-        background-color: #485D25;
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
@@ -68,7 +66,6 @@
         left: 0;
         width: 100%;
         height: 110px; /* Define altura consistente */
-        background-color: #485D25;
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
@@ -88,21 +85,22 @@
     .navlinks {
         display: flex;
         list-style-type: none;
-        margin: auto 270px;
         font-size: 1.3rem;
-        justify-content: space-between;
-        
-    }
-
-    .navlinks li{
-        display: inline-block;
-        margin: 0 30px;
-        
+        margin:  0px 200px;
     }
 
     .navbar__cart, .navbar__favorites {
         display: none;
 
+    }
+
+    .titulo__sobre__nosotros, 
+    .texto__about, .titulo-vision, 
+    .vision, 
+    .beneficios, 
+    .compromiso, 
+    .texto-equipo {
+        padding: 0 350px;
     }
 }
 /* Pantallas de computadoras portátiles o monitores de tamaño medio */
@@ -119,11 +117,18 @@
         left: 0;
         width: 100%;
         height: 110px; /* Define altura consistente */
-        background-color: #485D25;
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
-
+    
+    .titulo__sobre__nosotros, 
+    .texto__about, .titulo-vision, 
+    .vision, 
+    .beneficios, 
+    .compromiso, 
+    .texto-equipo {
+        padding: 0 50px;
+    }
     .logo {
         position: relative;
         width: 13%;
@@ -169,7 +174,6 @@
         left: 0;
         width: 100%;
         height: 150px; /* Define altura consistente */
-        background-color: #485D25;
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
@@ -210,8 +214,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100px; /* Define altura consistente */
-        background-color: #485D25;
+        height: 80px; /* Define altura consistente */
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
@@ -221,6 +224,15 @@
         height: auto;
         margin: auto;
         
+    }
+
+    .titulo__sobre__nosotros, 
+    .texto__about, .titulo-vision, 
+    .vision, 
+    .beneficios, 
+    .compromiso, 
+    .texto-equipo {
+        padding: 0 50px;
     }
 
     .menu-icon {
@@ -251,7 +263,6 @@
         left: 0;
         width: 100%;
         height: 80px; /* Define altura consistente */
-        background-color: #485D25;
         z-index: 10; /* Prioridad sobre otros elementos */
         align-items: center;
     }
