@@ -129,6 +129,7 @@
 
     .nav__navlinks a {
         margin: 0px 50px;
+        font-size: 1.5rem;
     }
 
     .nav__cart, .nav__favorites {
