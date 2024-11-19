@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon"  href="./iconos/icono-web.png">
+    <link rel="icon"href="./iconos/icono-web.png">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/menu-modal.css" />
     <link rel="stylesheet" href="./css/sobre-nosotros.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="stylesheet" href="./css/footer.css">
     <title>Sobre Nosotros | Organic Store</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
         <!-- Menú de navegación -->
         <ul class="nav__navlinks">
           <li class="nav__item">
-            <a class="navbar__link" href="#">Inicio</a>
+            <a class="navbar__link" href="./index.html">Inicio</a> 
           </li>
           <li class="nav__item">
             <a class="navbar__link" href="#">Productos</a>
@@ -50,7 +51,7 @@
             <a class="navbar__link" href="#">Contacto</a>
           </li>
           <li class="nav__item">
-            <a class="navbar__link" href="#">Sobre nosotros</a>
+            <a class="navbar__link" href="./sobre-nosotros.html">Sobre nosotros</a>
           </li>
         </ul>
 
@@ -68,7 +69,7 @@
           aria-label="Abrir menú"
         />
 
-        <!-- Modal del menú -->
+        <!-- Menú modal -->
         <div class="menu__modal" aria-hidden="true">
           <div class="menu__content">
             <label
@@ -89,10 +90,63 @@
       </nav>
     </header>
 
-    <main>
-      <section class="">
-
-      </section>
+    
+    <section class="products">
+      <!-- Producto 1 -->
+      <div class="product-1__conteiner">
+        <img 
+          src="./imagenes/Products/cafe.png" 
+          alt="Café Orgánico" 
+          class="product-1__image" 
+        />
+        <h3 class="product-1__title">Café Orgánico</h3>
+        <p class="product-1__description">
+          Café auténtico, cuidadosamente cultivado en las majestuosas montañas de Colombia, libre de químicos y con un profundo respeto por el medio ambiente. Cada grano refleja la tradición y dedicación de nuestros agricultores, ofreciendo una experiencia saludable y sostenible que enaltece la pureza del sabor y el compromiso con la naturaleza.
+        </p>
+        <p class="product-1__price product-1__price--color">Precio: $100</p>
+        <div class="product-1__btn">
+          <button class="btn__cart btn__cart--color">Agregar al carrito</button>
+          <button class="btn__favorite btn__favorite--color">Agregar a favoritos</button>
+        </div>
+      </div>
+    
+      <!-- Producto 2 -->
+      <div class="product-2__conteiner">
+        <img 
+          src="./imagenes/Products/arroz.png" 
+          alt="ImagenArroz Integral" 
+          class="product-2__image" 
+        />
+        <h3 class="product-2__title">Arroz Integral</h3>
+        <p class="product-2__description">
+          Arroz premium, cuidadosamente cultivado en las fértiles tierras del norte de Argentina, sin químicos y con un firme compromiso con la sostenibilidad. Cada grano refleja la tradición y dedicación de nuestros agricultores, ofreciendo una experiencia nutritiva y responsable que resalta la pureza del sabor y el respeto por el medio ambiente.
+        </p>
+        <p class="product-2__price product-2__price--color">Precio: $100</p>
+        <div class="product-2__btn">
+          <button class="btn__cart btn__cart--color">Agregar al carrito</button>
+          <button class="btn__favorite btn__favorite--color">Agregar a favoritos</button>
+        </div>
+      </div>
+    
+      <!-- Producto 3 -->
+      <div class="product-3__conteiner">
+        <img 
+          src="./imagenes/Products/miel.png" 
+          alt="Café Orgánico" 
+          class="product-3__image" 
+        />
+        <h3 class="product-3__title">Miel Orgánica</h3>
+        <p class="product-3__description">
+          Café auténtico, cuidadosamente cultivado en las majestuosas montañas de Colombia, libre de químicos y con un profundo respeto por el medio ambiente. Cada grano refleja la tradición y dedicación de nuestros agricultores, ofreciendo una experiencia saludable y sostenible que enaltece la pureza del sabor y el compromiso con la naturaleza.
+        </p>
+        <p class="product-3__price product-3__price--color">Precio: $100</p>
+        <div class="product-3__btn">
+          <button class="btn__cart btn__cart--color">Agregar al carrito</button>
+          <button class="btn__favorite btn__favorite--color">Agregar a favoritos</button>
+        </div>
+      </div>
+    </section>
+    
     </main>
 
     <footer>

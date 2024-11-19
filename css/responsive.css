@@ -103,9 +103,14 @@
 
     .nav__cart, .nav__favorites {
         display: none;
-
     }
-    
+
+    /* estilo para los productos */
+    .products {
+        display: flex;
+    }
+
+
     .about-us__title,
     .about-us__text,
     .mision__title,
@@ -119,6 +124,8 @@
     .menu__icon {
         display: none;
     }
+    
+
 }
 /* Pantallas de computadoras portátiles o monitores de tamaño medio */
 @media (min-width: 1280px) and (max-width: 1919px) {
@@ -164,6 +171,14 @@
         margin: auto 100px;
     }
 
+        /* estilo para los productos */
+        .products {
+            display: flex;
+        }
+    
+
+    /* Estilo para los productos */
+
 
     .about-us__title {
         margin-top: 105px;
@@ -181,6 +196,8 @@
     .menu__icon {
         display: none;
     }
+
+
 }
 
 
@@ -225,6 +242,7 @@
         height: auto;
         margin: auto 40px;
     }
+    
 
 
     .about-us__title {
@@ -243,7 +261,7 @@
     .menu__icon {
         display: none;
     }
-
+    
 
 }
 
@@ -287,7 +305,6 @@
     .nav__navlinks {
         display: none;
     }
-
 
     .about-us__title, 
     .about-us__text, 

@@ -1,15 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
+    background: #F1DBB7;
     margin: 0;
     padding: 0;
     padding-top: 80px; /* Asegura espacio suficiente para la navbar fija */
 }
 
+
 .nav {
     display: flex;
     position: fixed; /* Hace la barra fija */
-    background-color: #c9d799;
+    background: linear-gradient(0.15turn, #CDEAC0, #E9EDC9, #CFE795);
+    
 }
 
 
@@ -23,7 +25,7 @@ body {
 
 
 .nav__navlinks :hover {
-    color: #7F4F24;
+    color: #FFF;
     cursor: pointer;
     transition: color 0.5s ease-in-out;
     font-weight: bold;
@@ -42,3 +44,6 @@ body {
     color: #000;
     text-decoration: underline;
 }
+
+
+
