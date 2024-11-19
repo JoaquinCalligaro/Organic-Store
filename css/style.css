@@ -6,7 +6,7 @@ body {
     padding-top: 80px; /* Asegura espacio suficiente para la navbar fija */
 }
 
-.header__navbar {
+.nav {
     display: flex;
     position: fixed; /* Hace la barra fija */
     background-color: #c9d799;
@@ -14,7 +14,7 @@ body {
 
 
 
-.header__navbar__navlinks {
+.nav__navlinks {
     display: flex;
     list-style-type: none;
     margin: 180px;
@@ -22,7 +22,7 @@ body {
 }
 
 
-.header__navbar__navlinks :hover {
+.nav__navlinks :hover {
     color: #7F4F24;
     cursor: pointer;
     transition: color 0.5s ease-in-out;
@@ -38,7 +38,7 @@ body {
     text-decoration: none;
 }
 
-.header__navbar__link a:hover {
+.navbar__link a:hover {
     color: #000;
     text-decoration: underline;
 }

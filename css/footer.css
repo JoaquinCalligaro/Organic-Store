@@ -6,14 +6,14 @@ footer {
 }
 
 
-.footer__social__title {
+.social__title {
     display: block;
     text-align: center;
     font-size: 1.5rem;
     margin: 15px 15px;
 }
 
-.footer__social__icons {
+.social__icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ footer {
     margin: 10px 5px;
 }
 
-.footer__social__icons a {
+.social__icons a {
     display: inline-block;
 }
 
@@ -35,7 +35,7 @@ footer {
     list-style-type: none;
 }
 
-.footer__contact__title {
+.contact__title {
     display: block;
     text-align: center;
     font-size: 1.5rem;
@@ -43,7 +43,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.footer__politicy__title {
+.politicy__title {
     text-align: center;
     font-size: 1.5rem;
     margin: 15px 15px;
@@ -55,7 +55,7 @@ footer {
     text-decoration: none;
 }
 
-.footer__politicy__link  {
+.politicy__link  {
     text-decoration: none;
     padding: 0px 15px;
     color: #fff;
