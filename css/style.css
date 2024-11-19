@@ -46,4 +46,75 @@ body {
 }
 
 
+footer {
+    background: #131313;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.social__title {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px 15px;
+}
+
+.social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 25px;
+    margin: 10px 5px;
+}
+
+.social__icons a {
+    display: inline-block;
+}
+
+
+
+.footer__contact  {
+    
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.contact__title {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.politicy__title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px 15px;
+}
+
+.footer__politicy  {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.politicy__link  {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+.footer__copyright {
+    text-align: center;
+    font-size: .9rem;
+    color: #777;
+    margin-top: 20px;
+    
+}
+
 

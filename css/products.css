@@ -19,7 +19,6 @@
 .product-1__image, 
 .product-2__image, 
 .product-3__image {
-
     width: 250px;
     height: 250px;
     display: flex;
@@ -28,17 +27,23 @@
     
 }
 
-.product-1__title, .product-2__title, .product-3__title {
+.product-1__title, 
+.product-2__title, 
+.product-3__title {
     font-size: 1.5rem;
     text-align: center;
 }
 
-.product-1__description, .product-2__description, .product-3__description {
+.product-1__description, 
+.product-2__description, 
+.product-3__description {
     margin: 0px 10px;
     line-height: 1.8rem;
 }
 
-.product-1__price, .product-2__price, .product-3__price {
+.product-1__price, 
+.product-2__price, 
+.product-3__price {
     text-align: center;
     font-size: 1.5rem;
 }
@@ -49,12 +54,14 @@
     color: #ff3333;
 }
 
-.product-1__btn, .product-2__btn, .product-3__btn {
+.product-1__btn, 
+.product-2__btn, 
+.product-3__btn {
     display: flex;
 }
 
-.btn__cart{
-    background-color: #9EB7B8; 
+.btn__cart, 
+.btn__favorite{
     padding: 20px 25px;
     margin: 20px;
     letter-spacing: 1px;
@@ -62,18 +69,8 @@
     border-radius: 10px;
 }
 
-.btn__favorite{
-    background-color: #fff; 
-    padding: 5px 15px;
-    margin: 20px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.btn__cart--color:hover,
-.btn__favorite--color:hover {
-    background: linear-gradient(to right, #E9EDC9, #FAEDCD);
+.btn__cart:hover,
+.btn__favorite:hover {
     letter-spacing: 1px;
     font-weight: 500;
     border-radius: 10px;
@@ -81,10 +78,12 @@
     box-shadow: 0px 0px 10px #DDE5B6;
 }
 
-.btn__cart, .btn__cart--color {
+.btn__favorite--color, 
+.btn__cart--color {
     background-color: #E9EDC9; 
 }
 
-.btn__favorite, .btn__cart--color {
-    background-color: #E9EDC9; 
+.btn__cart--color:hover,
+.btn__favorite--color:hover {
+    background: linear-gradient(to right, #E9EDC9, #FAEDCD);
 }
