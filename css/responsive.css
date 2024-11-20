@@ -61,26 +61,32 @@
         margin: 50px auto; 
     }
         
-        .product-1__conteiner, 
-        .product-2__conteiner, 
-        .product-3__conteiner,
-        .product-4__conteiner,
-        .product-5__conteiner,
-        .product-6__conteiner {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 27%;
-            margin: 50px 50px;
-            padding: 30px;
-            height: auto;
-        }
-        
-        .btn__cart, 
-        .btn__favorite{
-            padding: 20px;
-            margin: 0px 40px;
-        }
+    .product-1__conteiner, 
+    .product-2__conteiner, 
+    .product-3__conteiner,
+    .product-4__conteiner,
+    .product-5__conteiner,
+    .product-6__conteiner,
+    .product-7__conteiner, 
+    .product-8__conteiner, 
+    .product-9__conteiner,
+    .product-10__conteiner,
+    .product-11__conteiner,
+    .product-12__conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 27%;
+        margin: 50px 50px;
+        padding: 30px;
+        height: auto;
+    }
+    
+    .btn__cart, 
+    .btn__favorite{
+        padding: 20px;
+        margin: 0px 40px;
+    }
     .about-us__title,
     .about-us__text,
     .mision__title,
@@ -129,6 +135,7 @@
 
     .nav__navlinks a {
         margin: 0px 50px;
+        font-size: 1.5rem;
     }
 
     .nav__cart, .nav__favorites {
@@ -148,7 +155,13 @@
     .product-3__conteiner,
     .product-4__conteiner,
     .product-5__conteiner,
-    .product-6__conteiner {
+    .product-6__conteiner,
+    .product-7__conteiner, 
+    .product-8__conteiner, 
+    .product-9__conteiner,
+    .product-10__conteiner,
+    .product-11__conteiner,
+    .product-12__conteiner {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -241,7 +254,13 @@
     .product-3__conteiner,
     .product-4__conteiner,
     .product-5__conteiner,
-    .product-6__conteiner {
+    .product-6__conteiner,
+    .product-7__conteiner, 
+    .product-8__conteiner, 
+    .product-9__conteiner,
+    .product-10__conteiner,
+    .product-11__conteiner,
+    .product-12__conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,7 +349,13 @@
     .product-3__conteiner,
     .product-4__conteiner,
     .product-5__conteiner,
-    .product-6__conteiner {
+    .product-6__conteiner,
+    .product-7__conteiner, 
+    .product-8__conteiner, 
+    .product-9__conteiner,
+    .product-10__conteiner,
+    .product-11__conteiner,
+    .product-12__conteiner {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -401,31 +426,37 @@
         display: none;
         }
 
-        .products{
-            display: flex;
-            flex-wrap: wrap; 
-            justify-content: center;
-            gap: 50px;
-            margin: 60px 0px;
-        }
-        
-        .product-1__conteiner, 
-        .product-2__conteiner, 
-        .product-3__conteiner,
-        .product-4__conteiner,
-        .product-5__conteiner,
-        .product-6__conteiner {
-            padding: 10px 50px;
-            margin: 20px 50px;
-            width: 50%;
-            height: auto;
-        }
-        
-        .btn__cart, 
-        .btn__favorite{
-            padding: 5px 10px;
-            margin: 0px 10px 10px 5px;
-        }
+    .products{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 50px;
+        margin: 60px 0px;
+    }
+    
+    .product-1__conteiner, 
+    .product-2__conteiner, 
+    .product-3__conteiner,
+    .product-4__conteiner,
+    .product-5__conteiner,
+    .product-6__conteiner,
+    .product-7__conteiner, 
+    .product-8__conteiner, 
+    .product-9__conteiner,
+    .product-10__conteiner,
+    .product-11__conteiner,
+    .product-12__conteiner {
+        padding: 10px 50px;
+        margin: 20px 50px;
+        width: 50%;
+        height: auto;
+    }
+    
+    .btn__cart, 
+    .btn__favorite{
+        padding: 5px 10px;
+        margin: 0px 10px 10px 5px;
+    }
 
     .about-us__title, 
     .about-us__text, 
@@ -508,7 +539,13 @@
 .product-3__conteiner,
 .product-4__conteiner,
 .product-5__conteiner,
-.product-6__conteiner {
+.product-6__conteiner,
+.product-7__conteiner, 
+.product-8__conteiner, 
+.product-9__conteiner,
+.product-10__conteiner,
+.product-11__conteiner,
+.product-12__conteiner {
     padding: 10px 50px;
     margin: 0px 50px;
     width: 50%;
