@@ -1,127 +1,50 @@
-/* Contenedor del producto  */
-.product-1__conteiner, 
-.product-2__conteiner, 
-.product-3__conteiner,
-.product-4__conteiner,
-.product-5__conteiner,
-.product-6__conteiner,
-.product-7__conteiner, 
-.product-8__conteiner, 
-.product-9__conteiner,
-.product-10__conteiner,
-.product-11__conteiner,
-.product-12__conteiner {
+/* Contenedor del producto */
+[class^="product-"][class$="__conteiner"] {
     border: 1px solid #000;
     box-shadow: 2px 2px 10px #00000055;
     border-radius: 10px;
     background-color: #FAEDCD;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.product-1__image, 
-.product-2__image, 
-.product-3__image,
-.product-4__image,
-.product-5__image,
-.product-6__image,
-.product-7__image, 
-.product-8__image, 
-.product-9__image,
-.product-10__image,
-.product-11__image,
-.product-12__image
-{
+/* Imagen del producto */
+[class^="product-"][class$="__image"] {
     width: 450px;
     height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    object-fit: cover;
 }
 
-
-
-
-.product-1__title, 
-.product-2__title, 
-.product-3__title,
-.product-4__title,
-.product-5__title,
-.product-6__title,
-.product-7__title, 
-.product-8__title, 
-.product-9__title,
-.product-10__title,
-.product-11__title,
-.product-12__title
-{
+/* Título del producto */
+[class^="product-"][class$="__title"] {
     font-size: 1.5rem;
     text-align: center;
 }
 
-.product-1__description, 
-.product-2__description, 
-.product-3__description,
-.product-4__description,
-.product-5__description,
-.product-6__description,
-.product-7__description, 
-.product-8__description, 
-.product-9__description,
-.product-10__description,
-.product-11__description,
-.product-12__description {
-    margin: 0px 0px;
+/* Descripción del producto */
+[class^="product-"][class$="__description"] {
+    margin: 0;
     line-height: 1.8rem;
 }
 
-.product-1__price, 
-.product-2__price, 
-.product-3__price,
-.product-4__price,
-.product-5__price,
-.product-6__price,
-.product-7__price, 
-.product-8__price, 
-.product-9__price,
-.product-10__price,
-.product-11__price,
-.product-12__price {
+/* Precio del producto */
+[class^="product-"][class$="__price"] {
     text-align: center;
     font-size: 1.5rem;
-}
-
-.product-1__price, .product-1__price--color,
-.product-2__price, .product-2__price--color,
-.product-3__price, .product-3__price--color,
-.product-4__price, .product-4__price--color,
-.product-5__price, .product-5__price--color,
-.product-6__price, .product-6__price--color,
-.product-7__price, .product-7__price--color,
-.product-8__price, .product-8__price--color,
-.product-9__price, .product-9__price--color,
-.product-10__price, .product-10__price--color,
-.product-11__price, .product-11__price--color,
-.product-12__price, .product-12__price--color {
     color: #ff3333;
 }
 
-.product-1__btn, 
-.product-2__btn, 
-.product-3__btn,
-.product-4__btn,
-.product-5__btn,
-.product-6__btn,
-.product-7__btn, 
-.product-8__btn, 
-.product-9__btn,
-.product-10__btn,
-.product-11__btn,
-.product-12__btn {
+/* Botón del producto */
+[class^="product-"][class$="__btn"] {
     display: flex;
 }
 
+/* Estilos comunes para botones */
 .btn__cart, 
-.btn__favorite{
+.btn__favorite {
     cursor: pointer;
     border-radius: 10px;
 }
