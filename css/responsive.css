@@ -546,8 +546,8 @@
 .product-10__conteiner,
 .product-11__conteiner,
 .product-12__conteiner {
-    padding: 50px 50px;
-    margin: 0px 50px;
+    padding: 50px;
+    margin: 60px auto ;
     width: 50%;
     height: auto;
 }
