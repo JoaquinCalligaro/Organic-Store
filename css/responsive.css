@@ -200,7 +200,7 @@
 
     .nav__navlinks{
         display: flex;
-        margin: 20px 0px;
+        
     }
 
     /* Estilo para los enlaces */
@@ -208,7 +208,7 @@
         display: flex;                
         list-style-type: none;        
         font-size: 1.3rem;
-        margin: 0px 20px;           
+        margin: 0px 40px 0px 80px;           
         color: #000;                 
         text-decoration: none;       
     }
@@ -222,10 +222,11 @@
 
     .nav__logo {
         position: relative;
-        width: 13%;
+        width: 10%;
         height: auto;
-        margin: auto 100px;
+        margin: auto ;
     }
+
 
 
     /* estilos para productos */
@@ -282,25 +283,26 @@
 }
 .nav__navlinks{
     display: flex;
-    margin: 10px -30px;
+    margin: 0px 0px 0px 100px;
 }
 
 /* Estilo para los enlaces */
 .nav__navlinks a {
     display: flex;                
     list-style-type: none;        
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #000;                 
-    text-decoration: none;    
+    text-decoration: none;  
 }
 .nav__cart, .nav__favorites {
     display: none;
 }
 .nav__logo {
     position: relative;
-    width: 18%;
+    width: 20%;
     height: auto;
-    margin: auto 40px;
+    margin: auto;
+    
 }
 
 
