@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./iconos/icono-web.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu-modal.css" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <title>Contacto | Organic Store</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img
+          src="./imagenes/organic-store-logo.png"
+          alt="logo de organic store"
+          class="nav__logo"
+        />
+        <ul class="nav__navlinks">
+          <li class="nav__item">
+            <a class="navbar__link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a class="navbar__link" href="./productos.html">Productos</a>
+          </li>
+          <li class="nav__item">
+            <a class="navbar__link" href="./ofertas.html">Ofertas</a>
+          </li>
+          <li class="nav__item">
+            <a class="navbar__link" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav__item">
+            <a class="navbar__link" href="./sobre-nosotros.html"
+              >Sobre nosotros</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p class="contacto__intro">
+          ¿Tenés dudas, sugerencias o querés hacer un pedido especial?<br />
+          Completá el formulario y nos pondremos en contacto contigo lo antes
+          posible.
+        </p>
+        <form class="contacto__form">
+          <div class="contacto__campo">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              required
+              placeholder="Tu nombre"
+            />
+          </div>
+          <div class="contacto__campo">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="tu@email.com"
+            />
+          </div>
+          <div class="contacto__campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              required
+              placeholder="Escribe tu mensaje..."
+            ></textarea>
+          </div>
+          <button type="submit" class="contacto__btn">Enviar mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Puedes reutilizar tu footer aquí -->
+    </footer>
+  </body>
+</html>
