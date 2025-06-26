@@ -24,7 +24,7 @@
 
     .nav__logo {
         position: relative;
-        width: 5%;
+        width: 8%;
         height: auto;
         margin: auto 100px;
         
@@ -87,7 +87,9 @@
         padding: 20px;
         margin: 0px 40px;
     }
-    .about-us__title,
+    .about-us__title {
+        margin-top: 180px;
+    }
     .about-us__text,
     .mision__title,
     .benefits,
@@ -167,14 +169,16 @@
         margin: 0px 40px;
     }
     
-    .about-us__title,
+    .about-us__title {
+        margin-top: 180px;
+    }
     .about-us__text,
     .mision__title,
     .benefits,
     .mision__text, 
     .commitment, 
     .teamgroup {
-        padding: 0px 500px;
+        padding: 0px 50px;
     }
 
     .menu__icon {
@@ -248,7 +252,7 @@
     
 
     .about-us__title {
-        margin-top: 105px;
+        margin-top: 180px;
     } 
     .about-us__text, 
     .mision__title,
@@ -256,7 +260,7 @@
     .mision__text, 
     .commitment, 
     .teamgroup {
-        padding: 0 50px;
+        padding: 0px 50px;
     }
 
     
@@ -299,7 +303,7 @@
 }
 .nav__logo {
     position: relative;
-    width: 20%;
+    width: 17%;
     height: auto;
     margin: auto;
     
@@ -334,7 +338,7 @@
     }
 
 .about-us__title {
-    margin-top: 105px;
+    margin-top: 180px;
 } 
 .about-us__text, 
 .mision__title,
@@ -342,7 +346,7 @@
 .mision__text, 
 .commitment, 
 .teamgroup {
-    padding: 0 50px;
+    padding: 10px 50px;
 }
 
 .menu__icon {
@@ -500,16 +504,18 @@
 }
 
 
+.about-us__title{
+    margin-top: 105px;
+    
+}
 
-.about-us__title, 
 .about-us__text, 
 .mision__title,
 .benefits,
 .mision__text, 
 .commitment, 
 .teamgroup {
-    margin: 0px 40px;
+    margin: 0px 30px;
 }
 
 }
-
