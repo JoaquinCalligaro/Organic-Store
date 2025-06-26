@@ -98,7 +98,7 @@
 }
 
 
-/* ===== ESTILOS HOME (agregá esto a style.css) ===== */
+/* ===== ESTILOS HOME  ===== */
 
 /* Hero Section */
 .hero {
@@ -156,14 +156,14 @@
 .inicio__resumen {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 100px;
+    margin: 0px auto;
 }
 
 .resumen__item {
     background: white;
     padding: 40px 30px;
+    margin: 0px 50px;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

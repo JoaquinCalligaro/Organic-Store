@@ -4,50 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./iconos/icono-web.png" />
-
-    <!-- Font Awesome 6 (vía CDN) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
-    <!-- Tus hojas de estilo -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/menu-modal.css" />
     <link rel="stylesheet" href="./css/sobre-nosotros.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/products.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-
-
-    <title>Productos | Organic Store</title>
+    <link rel="stylesheet" href="./css/ofertas.css" />
+    <title>Ofertas | Organic Store</title>
   </head>
-
   <body>
     <header>
       <nav class="nav">
-        <!-- Icono del carrito -->
         <img
           src="./iconos/Navbar/Carrito.png"
           alt="icono de carrito"
           class="nav__cart"
         />
-
-        <!-- Icono de favoritos -->
         <img
           src="./iconos/Navbar/favoritos.png"
           alt="icono de favoritos"
           class="nav__favorites"
         />
-
-        <!-- Logo -->
         <img
           src="./imagenes/organic-store-logo.png"
           alt="logo de organic store"
           class="nav__logo"
         />
-
-        <!-- Menú principal -->
         <ul class="nav__navlinks">
           <li class="nav__item">
             <a class="navbar__link" href="./index.html">Inicio</a>
@@ -67,8 +50,6 @@
             >
           </li>
         </ul>
-
-        <!-- Hamburguesa -->
         <label for="menu-toggle" class="menu__icon" aria-label="Abrir menú"
           >&#9776;</label
         >
@@ -78,8 +59,6 @@
           class="menu__toggle"
           aria-label="Abrir menú"
         />
-
-        <!-- Menú modal -->
         <div class="menu__modal" aria-hidden="true">
           <div class="menu__content">
             <label
@@ -90,8 +69,8 @@
             >
             <ul class="menu__links">
               <li><a href="./index.html">Inicio</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Ofertas</a></li>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./ofertas.html">Ofertas</a></li>
               <li><a href="#">Contacto</a></li>
               <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
             </ul>
@@ -101,20 +80,18 @@
     </header>
 
     <section class="product__container">
-      <!-- =============== Producto 1 =============== -->
+      <!-- =============== Oferta 1 =============== -->
       <div class="product-1__conteiner">
-        <img
-          src="./imagenes/Products/Pan-Integral.png"
-          alt="Pan integral (hecho con harina 100 % integral)"
-          class="product-1__image"
-        />
-        <h3 class="product-1__title">Pan integral (harina 100 % integral)</h3>
+        <img class="product-1__image" src="" alt="Aceite de Coco Orgánico" />
+        <h3 class="product-1__title">Aceite de Coco Orgánico</h3>
         <p class="product-1__description">
-          Pan integral hecho con harina 100 % integral, rico en fibra y sin
-          aditivos. Ideal para una alimentación saludable.
+          Aceite de coco prensado en frío, ideal para cocinar y cuidar tu piel
+          de forma natural.
         </p>
-        <p class="product-1__price product-1__price--color">320 ARS</p>
-
+        <p class="product-1__price product-1__price--color">
+          <span class="old-price">320 ARS</span>
+          <span class="new-price">$ 250 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -125,22 +102,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 2 =============== -->
+      <!-- =============== Oferta 2 =============== -->
       <div class="product-2__conteiner">
-        <img
-          src="./imagenes/Products/Galletas Integrales con Sabor Natural y Conciencia.png"
-          alt="Galletas Integrales con Sabor Natural y Conciencia"
-          class="product-2__image"
-        />
-        <h3 class="product-2__title">
-          Galletas Integrales con Sabor Natural y Conciencia
-        </h3>
+        <img class="product-2__image" src="" alt="Granola Natural" />
+        <h3 class="product-2__title">Granola Natural</h3>
         <p class="product-2__description">
-          Galletas integrales crujientes, hechas con harina 100 % integral y sin
-          aditivos. Sabor natural para un snack saludable.
+          Mezcla de cereales integrales, frutos secos y semillas, perfecta para
+          un desayuno saludable.
         </p>
-        <p class="product-2__price product-2__price--color">185 ARS</p>
-
+        <p class="product-2__price product-2__price--color">
+          <span class="old-price">220 ARS</span>
+          <span class="new-price">$ 180 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -151,20 +124,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 3 =============== -->
+      <!-- =============== Oferta 3 =============== -->
       <div class="product-3__conteiner">
-        <img
-          src="./imagenes/Products/Avena Integral.png"
-          alt="Avena Integral en Hojuelas"
-          class="product-3__image"
-        />
-        <h3 class="product-3__title">Avena Integral en Hojuelas</h3>
+        <img class="product-3__image" src="" alt="Yerba Mate Orgánica" />
+        <h3 class="product-3__title">Yerba Mate Orgánica</h3>
         <p class="product-3__description">
-          Avena integral en hojuelas, rica en fibra y perfecta para desayunos
-          saludables.
+          Yerba mate seleccionada, sin agroquímicos, para disfrutar de un mate
+          saludable y natural.
         </p>
-        <p class="product-3__price product-3__price--color">210 ARS</p>
-
+        <p class="product-3__price product-3__price--color">
+          <span class="old-price">180 ARS</span>
+          <span class="new-price">$ 140 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -175,20 +146,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 4 =============== -->
+      <!-- =============== Oferta 4 =============== -->
       <div class="product-4__conteiner">
-        <img
-          src="./imagenes/Products/cafe.png"
-          alt="Café Orgánico"
-          class="product-4__image"
-        />
-        <h3 class="product-4__title">Café Orgánico</h3>
+        <img class="product-4__image" src="" alt="Mix de Semillas" />
+        <h3 class="product-4__title">Mix de Semillas</h3>
         <p class="product-4__description">
-          Café orgánico de Colombia, cultivado sin químicos y con respeto por el
-          medio ambiente. Sabor puro y natural.
+          Combinación de semillas de chía, lino y girasol, fuente de omega 3 y
+          fibra.
         </p>
-        <p class="product-4__price product-4__price--color">275 ARS</p>
-
+        <p class="product-4__price product-4__price--color">
+          <span class="old-price">150 ARS</span>
+          <span class="new-price">$ 110 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -199,20 +168,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 5 =============== -->
+      <!-- =============== Oferta 5 =============== -->
       <div class="product-5__conteiner">
-        <img
-          src="./imagenes/Products/arroz.png"
-          alt="Arroz Integral"
-          class="product-5__image"
-        />
-        <h3 class="product-5__title">Arroz Integral</h3>
+        <img class="product-5__image" src="" alt="Barra de Cereal Orgánica" />
+        <h3 class="product-5__title">Barra de Cereal Orgánica</h3>
         <p class="product-5__description">
-          Arroz integral de alta calidad, cultivado sin químicos. Ideal para una
-          alimentación saludable y natural.
+          Barra de cereal con frutos secos y miel, sin conservantes ni azúcares
+          añadidos.
         </p>
-        <p class="product-5__price product-5__price--color">150 ARS</p>
-
+        <p class="product-5__price product-5__price--color">
+          <span class="old-price">90 ARS</span>
+          <span class="new-price">$ 60 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -223,20 +190,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 6 =============== -->
+      <!-- =============== Oferta 6 =============== -->
       <div class="product-6__conteiner">
-        <img
-          src="./imagenes/Products/miel.png"
-          alt="Miel Orgánica"
-          class="product-6__image"
-        />
-        <h3 class="product-6__title">Miel Orgánica</h3>
+        <img class="product-6__image" src="" alt="Jugo de Manzana Natural" />
+        <h3 class="product-6__title">Jugo de Manzana Natural</h3>
         <p class="product-6__description">
-          Miel orgánica pura, recolectada de abejas en entornos naturales, ideal
-          para endulzar de forma saludable.
+          Jugo exprimido de manzanas orgánicas, sin aditivos ni azúcares
+          agregados.
         </p>
-        <p class="product-6__price product-6__price--color">390 ARS</p>
-
+        <p class="product-6__price product-6__price--color">
+          <span class="old-price">120 ARS</span>
+          <span class="new-price">$ 90 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -247,20 +212,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 7 =============== -->
+      <!-- =============== Oferta 7 =============== -->
       <div class="product-7__conteiner">
-        <img
-          src="./imagenes/Products/Quinoa Orgánica.png"
-          alt="Quinoa Orgánica"
-          class="product-7__image"
-        />
-        <h3 class="product-7__title">Quinoa Orgánica</h3>
+        <img class="product-7__image" src="" alt="Té Verde Orgánico" />
+        <h3 class="product-7__title">Té Verde Orgánico</h3>
         <p class="product-7__description">
-          Quinoa cultivada de manera sostenible, rica en proteínas y nutrientes
-          esenciales. Perfecta para una dieta equilibrada.
+          Té verde en hebras, cosechado a mano, ideal para una infusión
+          antioxidante y natural.
         </p>
-        <p class="product-7__price product-7__price--color">225 ARS</p>
-
+        <p class="product-7__price product-7__price--color">
+          <span class="old-price">200 ARS</span>
+          <span class="new-price">$150 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -271,20 +234,18 @@
         </div>
       </div>
 
-      <!-- =============== Producto 8 =============== -->
+      <!-- =============== Oferta 8 =============== -->
       <div class="product-8__conteiner">
-        <img
-          src="./imagenes/Products/Té Verde Orgánico.png"
-          alt="Té Verde Orgánico"
-          class="product-8__image"
-        />
-        <h3 class="product-8__title">Té Verde Orgánico</h3>
+        <img class="product-8__image" src="" alt="Galletas Integrales" />
+        <h3 class="product-8__title">Galletas Integrales</h3>
         <p class="product-8__description">
-          Té verde fresco, cultivado sin químicos, ideal para relajarte mientras
-          cuidas tu cuerpo y mente.
+          Galletas elaboradas con harina integral y semillas, perfectas para una
+          merienda saludable.
         </p>
-        <p class="product-8__price product-8__price--color">95 ARS</p>
-
+        <p class="product-8__price product-8__price--color">
+          <span class="old-price">110 ARS</span>
+          <span class="new-price">$ 80 ARS</span>
+        </p>
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -295,92 +256,22 @@
         </div>
       </div>
 
-      <!-- =============== Producto 9 =============== -->
+      <!-- =============== Oferta 9 =============== -->
       <div class="product-9__conteiner">
         <img
-          src="./imagenes/Products/Mix-de-frutos.png"
-          alt="Frutos Secos Orgánicos"
           class="product-9__image"
+          src=""
+          alt="Mermelada de Frutilla Orgánica"
         />
-        <h3 class="product-9__title">Frutos Secos Orgánicos</h3>
+        <h3 class="product-9__title">Mermelada de Frutilla Orgánica</h3>
         <p class="product-9__description">
-          Mezcla premium de almendras, nueces y semillas, ideal como snack
-          saludable y lleno de energía.
+          Mermelada artesanal de frutilla, endulzada naturalmente y sin
+          conservantes.
         </p>
-        <p class="product-9__price product-9__price--color">340 ARS</p>
-
-        <div class="product-actions">
-          <button class="btn btn--cart" aria-label="Añadir al carrito">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </button>
-          <button class="btn btn--favorite" aria-label="Añadir a favoritos">
-            <i class="fa-solid fa-heart"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- =============== Producto 10 =============== -->
-      <div class="product-10__conteiner">
-        <img
-          src="./imagenes/Products/Harina-Integral.png"
-          alt="Harina Integral"
-          class="product-10__image"
-        />
-        <h3 class="product-10__title">Harina Integral</h3>
-        <p class="product-10__description">
-          Harina integral de grano entero, ideal para preparar recetas
-          saludables y deliciosas.
+        <p class="product-9__price product-9__price--color">
+          <span class="old-price">180 ARS</span>
+          <span class="new-price">$ 130 ARS</span>
         </p>
-        <p class="product-10__price product-10__price--color">120 ARS</p>
-
-        <div class="product-actions">
-          <button class="btn btn--cart" aria-label="Añadir al carrito">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </button>
-          <button class="btn btn--favorite" aria-label="Añadir a favoritos">
-            <i class="fa-solid fa-heart"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- =============== Producto 11 =============== -->
-      <div class="product-11__conteiner">
-        <img
-          src="./imagenes/Products/Aceite-de-Oliva.png"
-          alt="Aceite de Oliva"
-          class="product-11__image"
-        />
-        <h3 class="product-11__title">Aceite de Oliva Extra Virgen</h3>
-        <p class="product-11__description">
-          Aceite de oliva extra virgen de alta calidad, prensado en frío,
-          perfecto para ensaladas y cocina gourmet.
-        </p>
-        <p class="product-11__price product-11__price--color">410 ARS</p>
-
-        <div class="product-actions">
-          <button class="btn btn--cart" aria-label="Añadir al carrito">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </button>
-          <button class="btn btn--favorite" aria-label="Añadir a favoritos">
-            <i class="fa-solid fa-heart"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- =============== Producto 12 =============== -->
-      <div class="product-12__conteiner">
-        <img
-          src="./imagenes/Products/Jugo-de-Naranja.png"
-          alt="Jugo de Naranja Natural"
-          class="product-12__image"
-        />
-        <h3 class="product-12__title">Jugo de Naranja Natural</h3>
-        <p class="product-12__description">
-          Jugo fresco y natural, elaborado con naranjas seleccionadas, sin
-          conservantes ni aditivos.
-        </p>
-        <p class="product-12__price product-12__price--color">160 ARS</p>
-
         <div class="product-actions">
           <button class="btn btn--cart" aria-label="Añadir al carrito">
             <i class="fa-solid fa-cart-shopping"></i>
@@ -391,10 +282,8 @@
         </div>
       </div>
     </section>
-    <!-- /product__container -->
 
     <footer>
-      <!-- Redes sociales -->
       <div class="footer__social">
         <h4 class="social__title">Redes Sociales</h4>
         <div class="social__icons">
@@ -432,26 +321,22 @@
           </a>
         </div>
       </div>
-
-      <!-- Contacto -->
       <div class="footer__contact">
         <h4 class="contact__title">Contacto</h4>
         <p>Dirección: Calle Ficticia 123</p>
         <p>Teléfono: +123 456 7890</p>
         <p>Email: contacto@organicstore.com</p>
       </div>
-
-      <!-- Políticas -->
       <div class="footer__politicy">
         <h4 class="politicy__title">Políticas y Condiciones</h4>
         <a href="#" class="politicy__link">Política de Privacidad</a> |
         <a href="#" class="politicy__link">Términos y Condiciones</a>
       </div>
-
-      <!-- Copyright -->
       <div class="footer__copyright">
         <p>&copy; 2024 Organic Store. Todos los derechos reservados.</p>
       </div>
     </footer>
+    <!-- Font Awesome CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
   </body>
 </html>

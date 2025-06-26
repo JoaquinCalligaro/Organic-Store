@@ -1,0 +1,33 @@
+/* Precio anterior tachado para ofertas */
+.old-price {
+  color: #ff0000;
+  text-decoration: line-through;
+  margin-right: 8px;
+  font-size: 1rem;
+  opacity: 0.7;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+/* Precio nuevo destacado para ofertas */
+.new-price {
+  color: #7a8b3a;
+  font-weight: 700;
+  font-size: 1.15rem;
+  background: #f6fff2;
+  padding: 2px 10px;
+  border-radius: 8px;
+  margin-left: 4px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 1px 6px rgba(185, 197, 104, 0.1);
+  transition: background 0.2s, color 0.2s;
+  vertical-align: middle;
+  border: 1px solid #e9edc9;
+}
+
+/* Efecto animado al pasar el mouse sobre el precio en oferta */
+.new-price:hover {
+  background: #e9edc9;
+  color: #5a6e1a;
+  box-shadow: 0 2px 12px rgba(185, 197, 104, 0.18);
+}
