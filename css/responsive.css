@@ -395,7 +395,11 @@
     margin: 0px 10px 10px 5px;
   }
 
-  .about-us__title,
+  .about-us__title {
+    margin-top: 130px;
+    padding: 0px 50px;
+  }
+
   .about-us__text,
   .mision__title,
   .benefits,
