@@ -7,19 +7,38 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/menu-modal.css" />
     <link rel="stylesheet" href="./css/contacto.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <title>Contacto | Organic Store</title>
   </head>
   <body>
     <header>
       <nav class="nav">
+        <!-- Icono del carrito -->
+        <img
+          src="./iconos/Navbar/Carrito.png"
+          alt="icono de carrito"
+          class="nav__cart"
+        />
+
+        <!-- Icono de favoritos -->
+        <img
+          src="./iconos/Navbar/favoritos.png"
+          alt="icono de favoritos"
+          class="nav__favorites"
+        />
+
+        <!-- Logo de la página -->
         <img
           src="./imagenes/organic-store-logo.png"
           alt="logo de organic store"
           class="nav__logo"
         />
+
+        <!-- Menú de navegación -->
         <ul class="nav__navlinks">
           <li class="nav__item">
-            <a class="navbar__link" href="./index.html">Inicio</a>
+            <a class="navbar__link" href="#">Inicio</a> 
           </li>
           <li class="nav__item">
             <a class="navbar__link" href="./productos.html">Productos</a>
@@ -31,11 +50,42 @@
             <a class="navbar__link" href="./contacto.html">Contacto</a>
           </li>
           <li class="nav__item">
-            <a class="navbar__link" href="./sobre-nosotros.html"
-              >Sobre nosotros</a
-            >
+            <a class="navbar__link" href="./sobre-nosotros.html">Sobre nosotros</a>
           </li>
         </ul>
+
+        <!-- Icono de la hamburguesa -->
+        <label
+          for="menu-toggle"
+          class="menu__icon"
+          aria-label="Abrir menú de navegación"
+          >&#9776;</label
+        >
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="menu__toggle"
+          aria-label="Abrir menú"
+        />
+
+        <!-- Menú modal -->
+        <div class="menu__modal" aria-hidden="true">
+          <div class="menu__content">
+            <label
+              for="menu-toggle"
+              class="menu__close--btn"
+              aria-label="Cerrar menú"
+              >&times;</label
+            >
+            <ul class="menu__links">
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./ofertas.html">Ofertas</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -84,7 +134,65 @@
     </main>
 
     <footer>
-      <!-- Puedes reutilizar tu footer aquí -->
+      <!-- Apartado de redes sociales -->
+      <div class="footer__social">
+        <h4 class="social__title">Redes Sociales</h4>
+        <div class="social__icons">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener">
+            <img
+              src="./iconos/Redes-Sociales/facebook.png"
+              alt="facebook icono"
+              width="40"
+              height="40"
+            />
+          </a>
+
+          <a href="https://www.instagram.com" target="_blank" rel="noopener">
+            <img
+              src="./iconos/Redes-Sociales/instagram.png"
+              alt="instagram icono"
+              width="35"
+              height="35"
+            />
+          </a>
+
+          <a href="https://www.twitter.com" target="_blank" rel="noopener">
+            <img
+              src="./iconos/Redes-Sociales/X.png"
+              alt="twitter icono"
+              width="35"
+              height="35"
+            />
+          </a>
+
+          <a href="https://www.youtube.com" target="_blank" rel="noopener">
+            <img
+              src="./iconos/Redes-Sociales/youtube.png"
+              alt="Youtube icono"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+      
+      <!-- Apartado de información de contacto -->
+      <div class="footer__contact">
+        <h4 class="contact__title">Contacto</h4>
+        <p>Dirección: Calle Ficticia 123</p>
+        <p>Teléfono: +123 456 7890</p>
+        <p>Email: contacto@organicstore.com</p>
+      </div>
+      <!-- Apartado de políticas -->
+      <div class="footer__politicy">
+        <h4 class="politicy__title">Politicas y Condiciones</h4>
+        <a href="#" class="politicy__link">Política de Privacidad</a> |
+        <a href="#" class="politicy__link">Términos y Condiciones</a>
+      </div>
+      <!-- Apartado de copyright -->
+      <div class="footer__copyright">
+        <p>&copy; 2024 Organic Store. Todos los derechos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,443 +1,336 @@
 .menu__icon {
-    display: none;
+  display: none;
 }
 
 .nav__navlinks {
-    display: none;
+  display: none;
 }
 
 /* Dispositivos de escritorio grandes, como monitores de 4K */
 @media (min-width: 2560px) {
-
-    .nav{
-        display: flex;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100px; 
-        z-index: 10; 
-        align-items: center;
-    }
-
-
-    .nav__logo {
-        position: relative;
-        width: 8%;
-        height: auto;
-        margin: auto 100px;
-        
-    }
-    
-
-    /* Estilo para los enlaces */
-    .nav__navlinks{
-        display: flex;
-        margin: 0px 0px 0px 550px;
-        
-    }
-
-    .nav__cart, .nav__favorites {
-        display: none;
-
-    }
-        /* Estilo para los enlaces */
-    .nav__navlinks a {
-        display: flex;                  
-        font-size: 1.8rem;
-        margin: 0px 80px;             
-    }
-
-    .nav__cart, .nav__favorites {
-        display: none;
-    }
-
-    /* estilos para productos */
-    .products{
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-between; 
-        margin: 50px auto; 
-    }
-        
-    .product-1__conteiner, 
-    .product-2__conteiner, 
-    .product-3__conteiner,
-    .product-4__conteiner,
-    .product-5__conteiner,
-    .product-6__conteiner,
-    .product-7__conteiner, 
-    .product-8__conteiner, 
-    .product-9__conteiner,
-    .product-10__conteiner,
-    .product-11__conteiner,
-    .product-12__conteiner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 27%;
-        margin: 50px 50px;
-        padding: 30px;
-        height: auto;
-    }
-    
-    .btn__cart, 
-    .btn__favorite{
-        padding: 20px;
-        margin: 0px 40px;
-    }
-    .about-us__title {
-        margin-top: 180px;
-    }
-    .about-us__text,
-    .mision__title,
-    .benefits,
-    .mision__text, 
-    .commitment, 
-    .teamgroup {
-        padding: 0 350px;
-    }
-
-    .menu__icon {
-        display: none;
-    }
-}
-
-
-/* Pantallas de escritorio grandes, como monitores de 1080p o superiores */
-@media (min-width: 1920px) and (max-width: 2559px) {
-
-    .nav{
-        display: flex;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 110px; 
-        z-index: 10; 
-        align-items: center;
-    }
-
-
-    .nav__logo {
-        position: relative;
-        width: 9%;
-        height: auto;
-        margin: auto 100px;
-        
-    }
-    
-    .nav__navlinks{
-        display: flex;
-        margin: 0px 0px 0px 250px;
-        
-    }
-
-    .nav__navlinks a {
-        margin: 0px 50px;
-        font-size: 1.5rem;
-    }
-
-    .nav__cart, .nav__favorites {
-        display: none;
-    }
-
-    /* estilos para productos */
-    .product__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    gap: 30px;
-    padding: 30px;
-}
-    
-    [class^="product-"][class$="__conteiner"] {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 30%;
-        margin: 50px 50px;
-        padding: 30px;
-        
-        
-        
-        
-    }
-    
-    .btn__cart, 
-    .btn__favorite{
-        padding: 20px;
-        margin: 0px 40px;
-    }
-    
-    .about-us__title {
-        margin-top: 180px;
-    }
-    .about-us__text,
-    .mision__title,
-    .benefits,
-    .mision__text, 
-    .commitment, 
-    .teamgroup {
-        padding: 0px 50px;
-    }
-
-    .menu__icon {
-        display: none;
-    }
-
-
-
-}
-/* Pantallas de computadoras portátiles o monitores de tamaño medio mac book */
-@media (min-width: 1280px) and (max-width: 1919px) {
-
-    .nav{
-        display: flex;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 110px; /* Define altura consistente */
-        z-index: 10; /* Prioridad sobre otros elementos */
-        align-items: center;
-    }
-
-    .nav__navlinks{
-        display: flex;
-        
-    }
-
-    /* Estilo para los enlaces */
-    .nav__navlinks a {
-        display: flex;                
-        list-style-type: none;        
-        font-size: 1.3rem;
-        margin: 0px 40px 0px 80px;           
-        color: #000;                 
-        text-decoration: none;       
-    }
-
-
-    .nav__cart, .nav__favorites {
-        display: none;
-
-    }
-
-
-    .nav__logo {
-        position: relative;
-        width: 10%;
-        height: auto;
-        margin: auto ;
-    }
-
-
-
-    /* estilos para productos */
-
-    .product__container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 50px;
-        margin: 80px 250px;
-    }
-
-
-    .btn__cart, 
-    .btn__favorite{
-        padding: 5px 10px;
-        margin: 0px 10px 10px 5px;
-    }
-    
-
-    .about-us__title {
-        margin-top: 180px;
-    } 
-    .about-us__text, 
-    .mision__title,
-    .benefits,
-    .mision__text, 
-    .commitment, 
-    .teamgroup {
-        padding: 0px 50px;
-    }
-
-    
-    .menu__icon {
-        display: none;
-    }
-
-
-}
-
-
-@media (min-width: 768px) and (max-width: 1279px) {
-
-.nav{
+  .nav {
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 110px; 
-    z-index: 10;  
+    height: 100px;
+    z-index: 10;
     align-items: center;
-}
-.nav__navlinks{
+  }
+
+  .nav__logo {
+    position: relative;
+    width: 8%;
+    height: auto;
+    margin: auto 100px;
+  }
+
+  /* Estilo para los enlaces */
+  .nav__navlinks {
     display: flex;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 550px;
+  }
+
+  .nav__cart,
+  .nav__favorites {
+    display: none;
+  }
+
+  /* Estilo para los enlaces */
+  .nav__navlinks a {
+    display: flex;
+    font-size: 1.8rem;
+    margin: 0px 80px;
+  }
+
+  /* estilos para productos - CORREGIDO */
+  .product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 150px 50px;
+    gap: 30px;
+  }
+
+  [class^='product-'][class$='__conteiner'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    margin: 50px 0;
+    padding: 30px;
+    height: auto;
+  }
+
+  .btn--cart,
+  .btn--favorite {
+    padding: 20px;
+    margin: 0px 40px;
+  }
+
+  .about-us__title {
+    margin-top: 180px;
+  }
+  .about-us__text,
+  .mision__title,
+  .benefits,
+  .mision__text,
+  .commitment,
+  .teamgroup {
+    padding: 0 350px;
+  }
+
+  .menu__icon {
+    display: none;
+  }
 }
 
-/* Estilo para los enlaces */
-.nav__navlinks a {
-    display: flex;                
-    list-style-type: none;        
-    font-size: 1.2rem;
-    color: #000;                 
-    text-decoration: none;  
-}
-.nav__cart, .nav__favorites {
+/* Pantallas de escritorio grandes, como monitores de 1080p o superiores */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 10;
+    align-items: center;
+  }
+
+  .nav__logo {
+    position: relative;
+    width: 9%;
+    height: auto;
+    margin: auto 100px;
+  }
+
+  .nav__navlinks {
+    display: flex;
+    margin: 0px 0px 0px 250px;
+  }
+
+  .nav__navlinks a {
+    margin: 0px 50px;
+    font-size: 1.5rem;
+  }
+
+  .nav__cart,
+  .nav__favorites {
     display: none;
+  }
+
+  /* estilos para productos - CORREGIDO */
+  .product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 150px;
+  }
+
+  [class^='product-'][class$='__conteiner'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 50px 0;
+    padding: 30px;
+  }
+
+  .btn--cart,
+  .btn--favorite {
+    padding: 20px;
+    margin: 0px 40px;
+  }
+
+  .about-us__title {
+    margin-top: 180px;
+  }
+  .about-us__text,
+  .mision__title,
+  .benefits,
+  .mision__text,
+  .commitment,
+  .teamgroup {
+    padding: 0px 350px;
+  }
+
+  .menu__icon {
+    display: none;
+  }
 }
-.nav__logo {
+
+/* Pantallas de computadoras portátiles o monitores de tamaño medio mac book */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 10;
+    align-items: center;
+  }
+
+  .nav__navlinks {
+    display: flex;
+  }
+
+  /* Estilo para los enlaces */
+  .nav__navlinks a {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+    margin: 0px 40px 0px 80px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .nav__cart,
+  .nav__favorites {
+    display: none;
+  }
+
+  .nav__logo {
+    position: relative;
+    width: 10%;
+    height: auto;
+    margin: auto;
+  }
+
+  /* estilos para productos - CORREGIDO */
+  .product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 150px 80px 150px;
+    padding: 50px 10px;
+  }
+
+  [class^='product-'][class$='__conteiner'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 0;
+    padding: 25px 30px;
+  }
+
+  .btn--cart,
+  .btn--favorite {
+    padding: 5px 10px;
+    margin: 0px 10px 10px 5px;
+  }
+
+  .about-us__title {
+    margin-top: 180px;
+  }
+  .about-us__text,
+  .mision__title,
+  .benefits,
+  .mision__text,
+  .commitment,
+  .teamgroup {
+    padding: 0px 400px;
+  }
+
+  .menu__icon {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 10;
+    align-items: center;
+  }
+
+  .nav__navlinks {
+    display: flex;
+    margin: 0px 0px 0px 100px;
+  }
+
+  /* Estilo para los enlaces */
+  .nav__navlinks a {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .nav__cart,
+  .nav__favorites {
+    display: none;
+  }
+
+  .nav__logo {
     position: relative;
     width: 17%;
     height: auto;
     margin: auto;
-    
-}
+  }
 
+  /* estilo para los productos - CORREGIDO */
+  .product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 30px;
+    padding: 0 50px;
+  }
 
-/* estilo para los productos */
-    
-    .products{
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-between; 
-    }
+  [class^='product-'][class$='__conteiner'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 50px 0;
+    padding: 30px;
+  }
 
+  .btn--cart,
+  .btn--favorite {
+    padding: 15px 15px;
+    margin: 0px 10px 10px 5px;
+  }
 
-    [class="product-"][class$="__conteiner"] {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        width: 25%;
-        margin: 50px 50px;
-        padding: 50px;
-        height: auto;
-        margin: 100px;
-    } 
-    
-    .btn__cart, 
-    .btn__favorite{
-        padding: 15px 10px;
-        margin: 0px 10px 10px 5px;
-    }
-
-.about-us__title {
+  .about-us__title {
     margin-top: 180px;
-} 
-.about-us__text, 
-.mision__title,
-.benefits,
-.mision__text, 
-.commitment, 
-.teamgroup {
+  }
+  .about-us__text,
+  .mision__title,
+  .benefits,
+  .mision__text,
+  .commitment,
+  .teamgroup {
     padding: 10px 50px;
-}
+  }
 
-.menu__icon {
+  .menu__icon {
     display: none;
-}
-
+  }
 }
 
 /* Tablets en orientación vertical y teléfonos grandes */
 @media (min-width: 481px) and (max-width: 767px) {
-
-    .nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100px;
-        z-index: 10; 
-        align-items: center;
-    }
-    .nav__cart, 
-    .nav__favorites {
-        display: flex;
-        height: 30px;
-        margin: 25px 15px;
-
-    }
-    .nav__logo{
-        display: flex;
-        max-width: 28%;
-        height: auto;
-        margin: auto;
-    }
-    .menu__icon {
-        display: flex;
-        font-size: 2.4rem;
-        margin: auto 45px;
-    }
-    .nav__navlinks {
-        display: none;
-        }
-
-    .products{
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center;
-
-    }
-    
-    [class^="product-"][class$="__conteiner"] {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        margin: 0px auto;
-        padding: 10px;
-        height: auto;
-    }
-    
-    .btn__cart, 
-    .btn__favorite{
-        padding: 5px 10px;
-        margin: 0px 10px 10px 5px;
-    }
-
-    .about-us__title, 
-    .about-us__text, 
-    .mision__title,
-    .benefits,
-    .mision__text, 
-    .commitment, 
-    .teamgroup {
-        padding: 0px 50px;
-        }
-
-
-
-
-}
-
-/* Teléfonos pequeños */
-@media (max-width: 480px)  {
-
-.nav{
+  .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -445,34 +338,107 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px; 
-    z-index: 10; 
+    height: 100px;
+    z-index: 10;
     align-items: center;
+  }
+
+  .nav__cart,
+  .nav__favorites {
+    display: flex;
+    height: 30px;
+    margin: 25px 15px;
+  }
+
+  .nav__logo {
+    display: flex;
+    max-width: 28%;
+    height: auto;
+    margin: auto;
+  }
+
+  .menu__icon {
+    display: flex;
+    font-size: 2.4rem;
+    margin: auto 45px;
+  }
+
+  .nav__navlinks {
+    display: none;
+  }
+
+  /* estilos para productos - CORREGIDO */
+  .product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  [class^='product-'][class$='__conteiner'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+    margin: 20px 0;
+  }
+
+  .btn--cart,
+  .btn--favorite {
+    padding: 5px 10px;
+    margin: 0px 10px 10px 5px;
+  }
+
+  .about-us__title,
+  .about-us__text,
+  .mision__title,
+  .benefits,
+  .mision__text,
+  .commitment,
+  .teamgroup {
+    padding: 0px 50px;
+  }
 }
 
-.nav__logo{
+/* Teléfonos pequeños */
+@media (max-width: 480px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    align-items: center;
+  }
+
+  .nav__logo {
     display: flex;
     max-width: 30%;
     height: auto;
     margin: auto;
-    
-}
+  }
 
-.nav__cart, 
-.nav__favorites {
+  .nav__cart,
+  .nav__favorites {
     display: flex;
     height: 30px;
     margin: 25px 15px;
-    
-}
+  }
 
-
-.menu__icon {
+  .menu__icon {
     display: flex;
     font-size: 2.4rem;
     margin: auto 45px;
-}
-.menu__content {
+  }
+
+  .menu__content {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
@@ -482,44 +448,46 @@
     text-align: center;
     position: relative;
     top: 10px 0px;
-    box-shadow: 0px 0px 10px 10px rgb(0,0,0,0.3);
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.3);
     z-index: 1;
-    }
+  }
 
-
-.products{
+  /* estilos para productos - CORREGIDO */
+  .product__container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
- 
-}
+    margin-top: 100px;
+    gap: 20px;
+    padding: 20px;
+  }
 
-[class^="product-"][class$="__conteiner"] {
-    padding: 100px;
-    height: auto;
-}
+  [class^='product-'][class$='__conteiner'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 30px;
+    margin: 20px 0;
+  }
 
-
-
-.btn__cart, 
-.btn__favorite{
+  .btn--cart,
+  .btn--favorite {
     padding: 5px 10px;
     margin: 0px 10px 10px 5px;
-}
+  }
 
-
-.about-us__title{
+  .about-us__title {
     margin-top: 105px;
-    
-}
+    padding: 0px 50px;
+  }
 
-.about-us__text, 
-.mision__title,
-.benefits,
-.mision__text, 
-.commitment, 
-.teamgroup {
-    margin: 0px 30px;
-}
-
+  .about-us__text,
+  .mision__title,
+  .benefits,
+  .mision__text,
+  .commitment,
+  .teamgroup {
+    margin: 0px 40px;
+  }
 }
