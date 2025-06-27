@@ -181,7 +181,7 @@
     .mision__text, 
     .commitment, 
     .teamgroup {
-        padding: 0px 50px;
+        padding: 0px 350px;
     }
 
     .menu__icon {
@@ -514,6 +514,7 @@
 
 .about-us__title{
     margin-top: 105px;
+    padding: 0px 50px;
     
 }
 
@@ -523,7 +524,7 @@
 .mision__text, 
 .commitment, 
 .teamgroup {
-    margin: 0px 30px;
+    margin: 0px 40px;
 }
 
 }
