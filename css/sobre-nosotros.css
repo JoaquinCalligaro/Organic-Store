@@ -1,10 +1,10 @@
 /* ======================= SOBRE NOSOTROS========================= */
 .about-us__title {
-  font-size: 2.4rem;
+  font-size: 3rem;
   line-height: 3rem;
   color: #000;
   text-align: center;
-  margin-top: 80px;
+  margin: 50px 0px;
 }
 
 .about-us__highlight--color {
@@ -18,12 +18,13 @@
   line-height: 2.5rem;
   color: #000;
   text-align: left;
-  
 }
 
 /* =========================MISIÓN========================= */
-.mision__title {
-  font-size: 2.4rem;
+.mision__title h3 {
+  font-size: 3rem;
+  padding-top: 100px;
+  padding-bottom: 40px;
   color: #000;
   text-align: center;
 }
@@ -41,20 +42,19 @@
   font-size: 1.3rem;
   color: #000;
   text-align: left;
-  margin: 0 10px 100px 10px;
+
   line-height: 2.5rem;
 }
 
 .benefits__list {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 .benefits__list li {
   display: flex;
   align-items: center;
   margin-bottom: 1.8rem;
+  margin: 50px 0px;
 }
 
 .item__icon {
