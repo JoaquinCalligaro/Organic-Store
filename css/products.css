@@ -121,7 +121,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  margin: 0px 20px;
 }
 
 .btn i {

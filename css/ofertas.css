@@ -30,8 +30,8 @@
   transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
 }
 
-.new-price::after {
-  content: "🔥";
+/* .new-price::after {
+  content: '🔥';
   position: absolute;
   left: 2px;
   top: 50%;
@@ -39,10 +39,10 @@
   font-size: 1rem;
   animation: flameMove 1.1s infinite alternate;
   pointer-events: none;
-}
+} */
 
 .new-price::before {
-  content: "¡OFERTA!";
+  content: '¡OFERTA!';
   position: absolute;
   left: 12px;
   top: -26px;
@@ -60,19 +60,35 @@
 }
 
 @keyframes flameMove {
-  from { transform: translateY(-50%) scale(1.2) rotate(-8deg);}
-  to   { transform: translateY(-60%) scale(1.4) rotate(8deg);}
+  from {
+    transform: translateY(-50%) scale(1.2) rotate(-8deg);
+  }
+  to {
+    transform: translateY(-60%) scale(1.4) rotate(8deg);
+  }
 }
 
 @keyframes ofertaBounce {
-  0%   { transform: scale(1);}
-  60%  { transform: scale(1.06);}
-  100% { transform: scale(1);}
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes ofertaTagBounce {
-  from { top: -26px; opacity: 0.95;}
-  to   { top: -32px; opacity: 1;}
+  from {
+    top: -26px;
+    opacity: 0.95;
+  }
+  to {
+    top: -32px;
+    opacity: 1;
+  }
 }
 
 .new-price:hover {
@@ -81,4 +97,68 @@
   box-shadow: 0 8px 24px rgba(255, 105, 97, 0.22);
   transform: scale(1.08) rotate(-2deg);
   cursor: pointer;
+}
+
+/* Estilos base para ambos botones */
+/* === BOTONES CON FONT AWESOME === */
+.product-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: rgba(220, 220, 220, 0);
+  padding: 12px 46px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn i {
+  font-size: 18px;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+
+/* Botón carrito - success */
+.btn--cart {
+  border: 2px solid #04aa6d;
+}
+
+.btn--cart i,
+.btn--cart svg {
+  color: #04aa6d;
+}
+
+.btn--cart:hover {
+  background-color: #46a049;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.182);
+}
+
+.btn--cart:hover i,
+.btn--cart:hover svg {
+  color: white;
+}
+
+/* Botón favoritos - danger */
+.btn--favorite {
+  border: 2px solid #f44336;
+}
+
+.btn--favorite i,
+.btn--favorite svg {
+  color: #f44336;
+}
+
+.btn--favorite:hover {
+  background-color: #da190b;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.182);
+}
+
+.btn--favorite:hover i,
+.btn--favorite:hover svg {
+  color: white;
 }

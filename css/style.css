@@ -1,5 +1,13 @@
-/* ===== NAVBAR ===== */
+/* resetear el body y html */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
 
+/* ===== NAVBAR ===== */
 .nav {
   display: flex;
   align-items: center;
@@ -52,7 +60,7 @@
   transform: scale(1.1);
 }
 
-/* Desktop - mostrar navbar normal */
+/*Desktop - mostrar navbar normal*/
 @media (min-width: 769px) {
   .nav {
     justify-content: center;
@@ -119,15 +127,6 @@
   .inicio__frase p {
     font-size: 1.2rem;
   }
-}
-
-/* Asegúrate de resetear el body y html */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 /* Footer ocupa todo el ancho */
